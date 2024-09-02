@@ -1,25 +1,31 @@
-*{
+* {
     font-family: var(--fnt-dmsans);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--fnt-rubik);
 }
 
 
-
-.container {
-    padding-right: calc(var(--bs-gutter-x)* 3) !important;
-    padding-left: calc(var(--bs-gutter-x)* 3) !important;
-    max-width: 100%;
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+@media (max-width:1750px) {
+    .container {
+        padding-right: calc(var(--bs-gutter-x)* 3) !important;
+        padding-left: calc(var(--bs-gutter-x)* 3) !important;
+        max-width: 100%;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: unset;
 }
@@ -27,11 +33,12 @@ a:hover{
 p,
 ul,
 li,
-a{
+a {
     color: var(--paraColor);
     font-size: 16px;
     font-weight: 400;
 }
+
 /* 
 .pd-main-heading {
     font-family: var(--fnt-roboto);
@@ -116,11 +123,11 @@ a{
     text-decoration: none;
 } */
 
-.pd-full-padding{
+.pd-full-padding {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
 }
 
-.pd-dark-bg{
+.pd-dark-bg {
     background: var(--darkBg);
 }
