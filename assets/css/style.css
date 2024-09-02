@@ -12,8 +12,74 @@
 --siteBlue:"#3D45FF";
 --sitePurple:"#8A2EFF"; */
 
-.pd-main-banner{
+.pd-main-banner {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
-    min-height: 100vh;
+    min-height: 300vh;
+    position: relative;
+}
+
+.pd-center-grad {
+    position: absolute;
+    right: 7%;
+    width: 40%;
+    top: 5%;
+}
+
+.pd-left-grad {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.pd-top-grad {
+    position: absolute;
+    left: -5%;
+    top: 0;
+
+}
+
+.pd-main-banner .container {
+    position: relative;
+    z-index: 9;
+}
+
+.pd-white-heading {
+    font-size: 65px;
+    font-weight: 500;
+    color: var(--paraColor);
+}
+
+.pd-blue-heading {
+    font-size: 65px;
+    font-weight: 500;
+    color: var(--sitePurple);
+}
+
+.pd-banner-content {
+    padding-top: 4rem;
+}
+
+.pd-dots-1 {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+.pd-dots-2 {
+    position: absolute;
+    right: 9%;
+    bottom: 0;
+}
+
+
+.pd-dots-3 {
+    position: absolute;
+    right: 23%;
+    bottom: 7%;
+}
+
+.pd-mach-svg {
+    position: relative;
+    z-index: 9;
 }
