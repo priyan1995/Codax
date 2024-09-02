@@ -1,0 +1,126 @@
+*{
+    font-family: var(--fnt-dmsans);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--fnt-rubik);
+}
+
+
+
+.container {
+    padding-right: calc(var(--bs-gutter-x)* 3) !important;
+    padding-left: calc(var(--bs-gutter-x)* 3) !important;
+    max-width: 100%;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+p,
+ul,
+li,
+a{
+    color: var(--paraColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* 
+.pd-main-heading {
+    font-family: var(--fnt-roboto);
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 4.5rem;
+    color:var(--headingColor) ;
+}
+
+.pd-subtitle{
+    font-family: var(--fnt-barlow);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.pd-blue-btn{
+    background: var(--btnColorBlue);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: var(--fnt-monter);
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.5s;
+    border: 1px solid var(--btnColorBlue);
+}
+
+.pd-blue-btn:hover{
+    background: white;
+    color: var(--btnColorBlue);
+    border-color: var(--btnColorBlue);
+}
+
+.pd-blue{
+    color: var(--siteLightBlue);
+}
+
+.pd-outlined-btn{
+    background: white;
+    color: var(--paraColor);
+    border: 1px solid var(--paraColor);
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: var(--fnt-monter);
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.pd-outlined-btn:hover{
+    background: var(--paraColor);
+    color:white;
+    border: 1px solid var(--paraColor);
+    text-decoration: none;
+}
+
+.pd-black-btn{
+    color: white;
+    background: var(--paraColor);
+    border: 1px solid var(--paraColor);
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: var(--fnt-monter);
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+
+.pd-black-btn:hover{
+    background: var(--paraColor);
+    color:white;
+    border: 1px solid var(--paraColor);
+    text-decoration: none;
+} */
+
+.pd-full-padding{
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.pd-dark-bg{
+    background: var(--darkBg);
+}

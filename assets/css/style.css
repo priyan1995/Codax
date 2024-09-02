@@ -1,0 +1,19 @@
+/* banner */
+
+/* --fnt-dmsans: "DM Sans", sans-serif;
+--fnt-rubik: "Rubik", sans-serif;
+--paddingTop:4%;
+--paddingBottom:4%;
+--paraColor:"#F9FCFF";
+--paraSize:"13px";
+--defWeight:"400";
+--BlueheaderWeight:"700";
+--whiteHeaderWeight:"600";
+--siteBlue:"#3D45FF";
+--sitePurple:"#8A2EFF"; */
+
+.pd-main-banner{
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    min-height: 100vh;
+}
