@@ -88,13 +88,24 @@
 .pd-grid {
     position: absolute;
     right: 7%;
-    top: 14rem;
+    top: 21rem;
     opacity: 0.1;
+    z-index: 9;
 }
 
 .pd-mach-svg {
     position: relative;
     z-index: 9;
+}
+
+.pd-mach-svg-shadow{
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    background: radial-gradient(48% 38% at 49% 50%, rgb(24 26 147 / 90%) 0%, rgb(255 255 255 / 0%) 100%);
+    top: 6rem;
+    transform: rotate(20deg);
+    right: 17rem;
 }
 
 .pd-ec-s {
