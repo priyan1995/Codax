@@ -72,14 +72,38 @@
     bottom: 0;
 }
 
-
 .pd-dots-3 {
     position: absolute;
     right: 23%;
     bottom: 7%;
 }
 
+.pd-grid{
+    position: absolute;
+    right: 7%;
+    top: 14rem;
+    opacity: 0.1;
+}
+
 .pd-mach-svg {
     position: relative;
     z-index: 9;
+}
+
+.pd-ec-s{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pd-ec-m{
+    position: absolute;
+    right: 3%;
+    top: -7%;
+}
+
+.pd-ec-l{
+    position: absolute;
+    right: 6%;
+    top: -9%;
 }
