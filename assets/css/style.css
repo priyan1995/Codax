@@ -98,7 +98,7 @@
     z-index: 9;
 }
 
-.pd-mach-svg-shadow{
+.pd-mach-svg-shadow {
     position: absolute;
     width: 25rem;
     height: 25rem;
@@ -134,7 +134,7 @@
 }
 
 .pd-cod-ls svg {
-    filter:brightness(0) saturate(100%) invert(31%) sepia(99%) saturate(4848%) hue-rotate(258deg) brightness(97%) contrast(109%) opacity(0.9);
+    filter: brightness(0) saturate(100%) invert(31%) sepia(99%) saturate(4848%) hue-rotate(258deg) brightness(97%) contrast(109%) opacity(0.9);
     margin-right: -22px;
 }
 
@@ -161,7 +161,7 @@
         overflow: hidden;
     }
 
-    .pd-nav-grad{
+    .pd-nav-grad {
         width: 29%;
         height: 150px;
         position: absolute;
@@ -171,7 +171,7 @@
         top: -55%;
         border-radius: 100%;
     }
-    
+
 
     .nav-link {
         color: var(--paraColo) !important;
@@ -191,20 +191,20 @@
         padding: 0;
     }
 
-    .navbar-brand .pd-logo-main-nav{
+    .navbar-brand .pd-logo-main-nav {
         width: auto;
         margin-top: -9px;
         height: 34px;
         object-fit: contain;
     }
 
-    .navbar .container-fluid{
+    .navbar .container-fluid {
         position: relative;
     }
 
 }
 
-.pd-triang-grad{
+.pd-triang-grad {
     width: 50rem;
     height: 21rem;
     position: absolute;
@@ -217,14 +217,14 @@
     top: -6rem;
 }
 
-.pd-triang-grad-2{
+.pd-triang-grad-2 {
     width: 50rem;
     height: 21rem;
     position: absolute;
     background: linear-gradient(89deg, #5a0f8d -7%, #580f8e -1%, transparent);
 }
 
-.pd-nav-grad-tl-img{
+.pd-nav-grad-tl-img {
     position: absolute;
     left: -11rem;
     top: -28rem;
@@ -233,7 +233,7 @@
     transform: rotate(4deg);
 }
 
-.pd-banner-content::after{
+.pd-banner-content::after {
     content: "";
     position: absolute;
     width: 39rem;
@@ -242,4 +242,39 @@
     top: 0rem;
     transform: rotate(20deg);
     left: -4rem;
+}
+
+/* btn div */
+
+.pd-btn-div {
+    display: flex;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+
+.pd-blue-btn {
+    border-radius: 50px;
+    opacity: 1;
+    background: linear-gradient(90deg, #6924F3 0%, #4C67D2 100%);
+    box-sizing: border-box;
+    border: 2px solid #F9FCFF;
+    box-shadow: 0px 0px 15px 0px rgba(249, 252, 255, 0.5);
+    text-decoration: none;
+    padding: 12px 30px;
+    min-width: 180px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.pd-btn-div p {
+    font-family: var(--fnt-dmsans);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #F9FCFF;
+
+    max-width: 250px;
+    margin-bottom: 0;
+    margin-left: 25px;
 }
