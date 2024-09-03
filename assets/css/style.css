@@ -619,7 +619,7 @@
 
 /* subscription section */
 
-.pd-subscription{
+.pd-subscription {
     padding-bottom: 10%;
 }
 
@@ -629,7 +629,8 @@
     font-family: var(--fnt-rubik);
     font-weight: 400;
     font-size: 55px;
-    color: #333333
+    color: #333333;
+    margin-bottom: 4rem;
 }
 
 .pd-subscription .pd-sc-title h2 span {
@@ -664,4 +665,108 @@
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pd-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pd-col-28 {
+    flex: 0 0 28%;
+    max-width: 28%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pd-col-16 {
+    flex: 0 0 16%;
+    max-width: 16%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pd-susgrid h4 {
+    font-family: var(--fnt-rubik);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0em;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.pd-susgrid .pd-ssg-subtitle {
+    font-family: var(--fnt-rubik);
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0em;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.pd-susgrid p {
+    font-family: var(--fnt-dmsans);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #676565;
+}
+
+.pd-ssg-1 {
+    border-radius: 11px;
+    opacity: 1;
+    background: #F1F1FE;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pd-s-ssg-inp {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.pd-s-ssg-inp input {
+    border-radius: 5px;
+    opacity: 1;
+    background: #F8F9FB;
+    box-sizing: border-box;
+    /* PrimaryGradient */
+    border: 2px solid;
+    /* border-image: linear-gradient(90deg, #6922F3 0%, #4378C8 49%, #6922F3 100%) 2; */
+    box-shadow: 0px 0px 20px 0px rgba(61, 69, 255, 0.8), inset 0px 0px 9.2px 0px #3D45FF;
+    padding: 13px 37px 13px 28px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.pd-s-ssg-inp span {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.pd-s-ssg-inp svg {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}
+
+.pd-s-ssg-gd {
+    background: radial-gradient(50% 50% at 50% 50%, #6A24F3 0%, rgba(106, 36, 243, 0) 100%);
+    position: absolute;
+    width: 139%;
+    height: 131%;
+    bottom: -15rem;
+    right: -4rem;
+}
+
+.pd-s-ssg-gd-str {
+    position: absolute;
+    bottom: -22%;
+    width: auto;
+    right: 0;
 }
