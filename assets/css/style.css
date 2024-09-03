@@ -630,7 +630,7 @@
     font-weight: 400;
     font-size: 55px;
     color: #333333;
-    margin-bottom: 4rem;
+    margin-bottom: 9rem;
 }
 
 .pd-subscription .pd-sc-title h2 span {
@@ -848,18 +848,18 @@
     left: -2rem;
 }
 
-.pd-mb-20{
+.pd-mb-20 {
     margin-bottom: 20px;
 }
 
-.pd-s-ssg-gd-llsi{
+.pd-s-ssg-gd-llsi {
     width: 100%;
     bottom: -13%;
     position: absolute;
     left: 0;
 }
 
-.pd-col-56{
+.pd-col-56 {
     flex: 0 0 56%;
     max-width: 56%;
     padding-left: 10px;
@@ -867,33 +867,34 @@
 
 }
 
-.pd-ssg-4{
+.pd-ssg-4 {
     height: 240px;
 }
-.pd-ssg-5{
+
+.pd-ssg-5 {
     height: 240px;
     margin-top: 20px;
 }
 
-.pd-s-ssg-gd-sprl{
+.pd-s-ssg-gd-sprl {
     position: absolute;
     right: -3rem;
     top: -55%;
 }
 
-.pd-s-ssg-team{
+.pd-s-ssg-team {
     width: 16rem;
     margin-top: 5px;
     margin-bottom: 14px;
 }
 
-.pd-tm-it-flex{
+.pd-tm-it-flex {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.pd-tm-it-flex div{
+.pd-tm-it-flex div {
     flex: 0 0 25%;
     min-width: 25%;
     align-items: center;
@@ -901,7 +902,7 @@
     align-items: center;
 }
 
-.pd-tm-it-flex div img{
+.pd-tm-it-flex div img {
     width: 25px;
     height: 25px;
     object-fit: contain;
@@ -910,7 +911,7 @@
     margin-top: -2px;
 }
 
-.pd-tm-it-flex div p{
+.pd-tm-it-flex div p {
     margin: 0;
     font-size: var(--fnt-rubik);
     font-size: 13px;
@@ -919,4 +920,51 @@
     text-align: center;
     letter-spacing: 0em;
     color: #333333;
+}
+
+.pd-ssg-5 {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/le-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 104%;
+    position: relative;
+    padding: 38px;
+}
+
+.pd-ssg-5::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    filter: blur(-5px);
+    left: 0;
+    top: 0;
+    background: #6435fc45;
+}
+
+.pd-ssg-5 div{
+    position: relative;
+    z-index: 9;
+    color: white;
+    width: 60%;
+}
+
+.pd-ssg-5 p{
+    color: white  !important;
+}
+
+.pd-ssg-5 h4{
+    color: white;
+}
+
+.pd-s-ssg-gd-crown{
+    position: absolute;
+    width: 56%;
+    top: -7rem;
+    right: -7rem;
+    mix-blend-mode: overlay;
+    opacity: 0.7;
 }
