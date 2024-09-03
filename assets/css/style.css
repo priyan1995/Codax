@@ -851,3 +851,72 @@
 .pd-mb-20{
     margin-bottom: 20px;
 }
+
+.pd-s-ssg-gd-llsi{
+    width: 100%;
+    bottom: -13%;
+    position: absolute;
+    left: 0;
+}
+
+.pd-col-56{
+    flex: 0 0 56%;
+    max-width: 56%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.pd-ssg-4{
+    height: 240px;
+}
+.pd-ssg-5{
+    height: 240px;
+    margin-top: 20px;
+}
+
+.pd-s-ssg-gd-sprl{
+    position: absolute;
+    right: -3rem;
+    top: -55%;
+}
+
+.pd-s-ssg-team{
+    width: 16rem;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.pd-tm-it-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.pd-tm-it-flex div{
+    flex: 0 0 25%;
+    min-width: 25%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.pd-tm-it-flex div img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    object-position: bottom;
+    margin-right: 3px;
+    margin-top: -2px;
+}
+
+.pd-tm-it-flex div p{
+    margin: 0;
+    font-size: var(--fnt-rubik);
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #333333;
+}
