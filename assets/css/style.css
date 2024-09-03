@@ -722,6 +722,7 @@
     padding: 38px 60px 85px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .pd-s-ssg-inp {
@@ -771,19 +772,19 @@
     right: 0;
 }
 
-.pd-ssg-2{
+.pd-ssg-2 {
     background: #EFF5FC;
     min-height: 100%;
 }
 
-.pd-s-ssg-gd-waw{
+.pd-s-ssg-gd-waw {
     width: 100%;
     bottom: 0;
     position: absolute;
     left: 0;
 }
 
-.pd-s-ssg-gd-phn{
+.pd-s-ssg-gd-phn {
     transform: translateY(65%) translateX(7.5%);
     width: 85%;
     margin: auto;
@@ -792,11 +793,58 @@
     left: 0;
 }
 
-.pd-ssg-2-grad{
+.pd-ssg-2-grad {
     background: radial-gradient(42% 46% at 50% 50%, rgba(243, 38, 173, 0.3) 0%, rgba(243, 38, 173, 0) 100%);
     position: absolute;
     width: 178%;
     height: 170%;
     bottom: -8rem;
     right: -8rem;
+}
+
+.pd-ssg-3 {
+    min-height: 500px;
+    padding: 38px;
+}
+
+.pd-ssg-3 p {
+    position: relative;
+}
+
+.pd-ssg-3 h4 {
+    font-family: var(--fnt-rubik);
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #333333;
+}
+
+.pd-ssg-3 .pd-ssg-2-grad {
+    height: 100%;
+    background: radial-gradient(36% 39% at 50% 50%, #F326AD 0%, rgba(243, 38, 173, 0) 100%);
+    bottom: -12rem;
+    right: -7rem;
+    width: 208%;
+}
+
+.pd-s-ssg-cv-ld {
+    width: 83%;
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+    z-index: 9;
+}
+
+.pd-ssg-3 h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #F9FCFF;
+    position: relative;
+    z-index: 9;
+    bottom: -5rem;
+    left: -2rem;
 }
