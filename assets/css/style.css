@@ -703,7 +703,7 @@
     text-align: left;
     letter-spacing: 0em;
     color: #333333;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .pd-susgrid p {
@@ -719,7 +719,7 @@
     border-radius: 11px;
     opacity: 1;
     background: #F1F1FE;
-    padding: 60px;
+    padding: 38px 60px 85px;
     position: relative;
     overflow: hidden;
 }
@@ -769,4 +769,16 @@
     bottom: -22%;
     width: auto;
     right: 0;
+}
+
+.pd-ssg-2{
+    background: #EFF5FC;
+    min-height: 100%;
+}
+
+.pd-s-ssg-gd-waw{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
 }
