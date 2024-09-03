@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -44,90 +44,6 @@ a {
     font-weight: 400;
 }
 
-/* 
-.pd-main-heading {
-    font-family: var(--fnt-roboto);
-    font-size: 65px;
-    font-weight: 800;
-    line-height: 4.5rem;
-    color:var(--headingColor) ;
-}
-
-.pd-subtitle{
-    font-family: var(--fnt-barlow);
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 8px;
-    text-transform: capitalize;
-}
-
-.pd-blue-btn{
-    background: var(--btnColorBlue);
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    display: inline-block;
-    border-radius: 20px;
-    font-family: var(--fnt-monter);
-    font-size: 14px;
-    font-weight: 400;
-    transition: all 0.5s;
-    border: 1px solid var(--btnColorBlue);
-}
-
-.pd-blue-btn:hover{
-    background: white;
-    color: var(--btnColorBlue);
-    border-color: var(--btnColorBlue);
-}
-
-.pd-blue{
-    color: var(--siteLightBlue);
-}
-
-.pd-outlined-btn{
-    background: white;
-    color: var(--paraColor);
-    border: 1px solid var(--paraColor);
-    text-decoration: none;
-    padding: 10px 30px;
-    display: inline-block;
-    border-radius: 20px;
-    font-family: var(--fnt-monter);
-    font-size: 14px;
-    font-weight: 400;
-    transition: all 0.5s;
-}
-
-.pd-outlined-btn:hover{
-    background: var(--paraColor);
-    color:white;
-    border: 1px solid var(--paraColor);
-    text-decoration: none;
-}
-
-.pd-black-btn{
-    color: white;
-    background: var(--paraColor);
-    border: 1px solid var(--paraColor);
-    text-decoration: none;
-    padding: 10px 30px;
-    display: inline-block;
-    border-radius: 20px;
-    font-family: var(--fnt-monter);
-    font-size: 14px;
-    font-weight: 400;
-    transition: all 0.5s;
-}
-
-
-.pd-black-btn:hover{
-    background: var(--paraColor);
-    color:white;
-    border: 1px solid var(--paraColor);
-    text-decoration: none;
-} */
-
 .pd-full-padding {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
@@ -135,4 +51,31 @@ a {
 
 .pd-dark-bg {
     background: var(--darkBg);
+}
+
+.pd-light-title {
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+
+    font-weight: 300;
+    font-size: 55px;
+    /* Join the new wave of */
+    color: #333333;
+
+}
+
+.pd-light-blue-title{
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-weight: 300;
+    font-size: 55px;
+
+    background: linear-gradient(95deg, #8214a2, #247AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
