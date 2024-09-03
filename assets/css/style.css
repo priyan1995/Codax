@@ -722,7 +722,6 @@
     padding: 38px 60px 85px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 25px;
 }
 
 .pd-s-ssg-inp {
@@ -847,4 +846,8 @@
     z-index: 9;
     bottom: -5rem;
     left: -2rem;
+}
+
+.pd-mb-20{
+    margin-bottom: 20px;
 }
