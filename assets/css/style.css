@@ -29,7 +29,7 @@
 .pd-left-grad {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 17%;
 }
 
 .pd-top-grad {
@@ -427,4 +427,32 @@ text-transform: uppercase;
 .pd-logo-slider img{
     object-fit: contain;
     height: 140px;
+}
+
+.pd-gbl{
+    position: absolute;
+    left: -40%;
+    bottom: -22%;
+    width: auto;
+
+}
+
+.pd-gbr{
+    position: absolute;
+    right: -40%;
+    bottom: -22%;
+    width: auto;
+
+}
+
+.pd-l-s{
+    position: absolute;
+    left: -1%;
+    bottom: 12%;
+}
+
+.pd-r-s{
+    position: absolute;
+    right: -2%;
+    bottom: 12%;
 }
