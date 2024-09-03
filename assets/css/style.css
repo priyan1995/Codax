@@ -458,13 +458,15 @@
     bottom: 22%;
 }
 
+/* departments */
+
 .pd-departments {
     padding-top: 10%;
     padding-bottom: 10%;
     position: relative;
 }
 
-.pd-departments::before{
+.pd-departments::before {
     content: "";
     background: url(../img/sec-grad-line.png);
     width: 100%;
@@ -487,4 +489,57 @@
     color: #333333;
     text-transform: uppercase;
     font-family: var(--fnt-dmsans);
+}
+
+.pd-dp-title-sc{
+    margin-bottom: 4rem;
+}
+
+.pd-dip-grad-box {
+    position: relative;
+    width: 100%;
+    padding: 205px 32px 40px 32px;
+    position: relative;
+    overflow: hidden;
+}
+.pd-pink-gb {
+    border-radius: 11px;
+    opacity: 1;
+    background: radial-gradient(156% 81% at 49% 100%, #BD24F3 0%, #191919 100%);
+}
+
+.pd-dip-grad-box h2 {
+    font-size: 128px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #F9FCFF;
+    font-family: var(--fnt-rubik);
+    line-height: 128px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.pd-dip-grad-box h6 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #F9FCFF;
+    font-family: var(--fnt-rubik);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.pd-dip-grad-box div{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    transform: translateY(62%);
+    align-items: center;
+}
+
+.pd-dip-grad-box div svg{
+    margin-top: 12px;
 }
