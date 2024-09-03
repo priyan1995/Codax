@@ -616,3 +616,52 @@
     width: 150px;
     height: 1px;
 }
+
+/* subscription section */
+
+.pd-subscription{
+    padding-bottom: 10%;
+}
+
+.pd-subscription .pd-sc-title h2 {
+    text-align: center;
+    /* Everything you get with your */
+    font-family: var(--fnt-rubik);
+    font-weight: 400;
+    font-size: 55px;
+    color: #333333
+}
+
+.pd-subscription .pd-sc-title h2 span {
+    font-weight: 100;
+    background: linear-gradient(95deg, #8214a2, #707EFB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 300;
+}
+
+
+.pd-subscription .pd-sc-title h3 {
+    text-align: center;
+    font-family: var(--fnt-rubik);
+    font-weight: 400;
+    font-size: 35px;
+    color: #333333;
+    margin-bottom: 3rem;
+}
+
+.pd-subscription .pd-sc-title h3 span {
+    font-weight: 100;
+    background: linear-gradient(95deg, #8214a2, #707EFB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 300;
+}
+
+.pd-subscription .pd-sc-title {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
