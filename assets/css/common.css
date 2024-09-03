@@ -1,5 +1,10 @@
 * {
     font-family: var(--fnt-dmsans);
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 h1,
