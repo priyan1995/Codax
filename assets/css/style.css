@@ -782,3 +782,21 @@
     position: absolute;
     left: 0;
 }
+
+.pd-s-ssg-gd-phn{
+    transform: translateY(65%) translateX(7.5%);
+    width: 85%;
+    margin: auto;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+
+.pd-ssg-2-grad{
+    background: radial-gradient(42% 46% at 50% 50%, rgba(243, 38, 173, 0.3) 0%, rgba(243, 38, 173, 0) 100%);
+    position: absolute;
+    width: 178%;
+    height: 170%;
+    bottom: -8rem;
+    right: -8rem;
+}
