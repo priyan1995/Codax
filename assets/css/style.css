@@ -353,7 +353,7 @@
     background: radial-gradient(80% 180% at 50% 50%, rgba(255, 255, 255, 0.005) 0%, rgba(255, 255, 255, 0.2) 100%);
     box-sizing: border-box;
     border: 2px solid;
-    border-image: linear-gradient(209deg, rgba(79, 34, 255, 0.7) 15%, rgba(255, 255, 255, 0.3) 33%, rgba(255, 255, 255, 0) 64%, rgba(204, 10, 243, 0) 81%, #CC0AF3 118%) 2;
+    /* border-image: linear-gradient(209deg, rgba(79, 34, 255, 0.7) 15%, rgba(255, 255, 255, 0.3) 33%, rgba(255, 255, 255, 0) 64%, rgba(204, 10, 243, 0) 81%, #CC0AF3 118%) 2; */
     backdrop-filter: blur(20px);
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
     padding: 6rem;
