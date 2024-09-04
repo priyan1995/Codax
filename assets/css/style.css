@@ -1441,6 +1441,7 @@
     padding-top: 15%;
     padding-bottom: 10%;
     position: relative;
+    overflow: hidden;
 }
 
 .pd-serv-sld-gry {
@@ -1514,11 +1515,16 @@
     left: 0%;
 }
 
-.pd-sv-bg-emb {
-    width: 169px;
+.pd-sv-bg-s {
     position: absolute;
-    right: 16%;
-    bottom: 18%;
+    top: 22%;
+    left: 0%;
+}
+
+.pd-sv-bg-emb {
+    position: absolute;
+    right: 25%;
+    bottom: 21%;
 }
 
 .pd-sv-sld-item h2 {
@@ -1531,9 +1537,9 @@
 }
 
 .pd-sv-sld-item p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 23px;
     max-width: 80%;
 }
 
@@ -1542,6 +1548,11 @@
     position: relative;
     left: 11%;
 }
+
+.pd-ss-it-content-sm{
+    padding-top: 16%;
+}
+
 
 .pd-sv-sld-item label{
     color: white;
@@ -1584,6 +1595,35 @@
 .pd-b-lbl{
     position: absolute;
     bottom: 8%;
-    right: 25%;
+    right: 40%;
     transform: rotate(7deg);
+}
+
+.sbl-ico{
+    position: absolute;
+    right: 23%;
+    bottom: 56%;
+}
+
+.pd-ss-sec-grad{
+    position: absolute;
+    bottom: -5%;
+    left: -6%;
+    width: 100%;
+}
+
+.pd-ss-sec-grad svg{
+    width: 111%;
+    height: 100%;
+}
+
+.pd-ss-sec-grad img{
+    position: absolute;
+    bottom: -6%;
+}
+
+.pd-serv-sld-sec .container-fluid,
+.pd-serv-sld-sec .container{
+    position: relative;
+    z-index: 99;
 }
