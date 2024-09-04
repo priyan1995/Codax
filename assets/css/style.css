@@ -1053,7 +1053,7 @@
 
 .pd-dep-c-grd-1{
     position: absolute;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(76, 103, 210, 0.4) 0%, rgba(76, 103, 210, 0) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, rgb(76 103 210 / 72%) 0%, rgba(76, 103, 210, 0) 100%);
     top: 1%;
     left: 10%;
     width: 42%;
@@ -1063,7 +1063,7 @@
 
 .pd-dep-c-grd-2{
     position: absolute;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(76, 103, 210, 0.4) 0%, rgba(76, 103, 210, 0) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, rgb(76 103 210 / 72%) 0%, rgba(76, 103, 210, 0) 100%);
     top: 1%;
     right: 10%;
     width: 42%;
@@ -1072,12 +1072,12 @@
 
 
 .pd-dep-card{
-    max-width: 58%;
+    max-width: 65%;
     margin: auto;
     text-align: center;
     background: white;
-    border-radius: 40px;
-    padding: 60px 45px;
+    border-radius: 45px;
+    padding: 40px 40px 35px;
 }
 
 .pd-dep-card h2 {
@@ -1099,6 +1099,33 @@
     font-weight: 300;
 }
 
-.pd-dep-card h3 {}
+.pd-dc-btn img{
+    width: 50px;
+}
 
-.pd-dep-card p {}
+.pd-dc-btn{
+    align-items: center;
+    margin: 18px auto;
+    width: 65%;
+    border: 1px solid;
+    padding: 18px 10px;
+    border-radius: 84px;
+}
+
+.pd-dep-card h3 {
+    text-align: left;
+    margin-bottom:1px;
+}
+
+.pd-dep-card p {
+    color: #000000;
+    text-align: left;
+    margin-bottom:1px;
+}
+
+.pd-dc-btn h1{
+    font-weight: 200;
+    color: #4c67d2;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
