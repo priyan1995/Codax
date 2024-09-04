@@ -1046,6 +1046,14 @@
     position: relative;
 }
 
+.pd-dep-card-sec-bt-grad{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+
 .pd-dep-card-sec .container {
     position: relative;
     z-index: 9;
@@ -1130,7 +1138,7 @@
     margin-bottom: 0;
 }
 
-.pd-dep-card-sec::after {
+/* .pd-dep-card-sec::after {
     content: "";
     background: linear-gradient(180deg, rgba(43, 31, 77, 0) 7%, #0052B4 87%);
     width: 100%;
@@ -1138,7 +1146,7 @@
     position: absolute;
     bottom: 0%;
     left: 0;
-}
+} */
 
 /* review */
 
@@ -1425,4 +1433,19 @@
     position: absolute;
     bottom: 2%;
     left: 12%;
+}
+
+/* services slider */
+
+.pd-serv-sld-sec{
+    padding-top: 8%;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+.pd-serv-sld-gry{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
