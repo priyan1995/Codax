@@ -43,6 +43,7 @@
 .pd-main-banner .container {
     position: relative;
     z-index: 9;
+    overflow: hidden;
 }
 
 .pd-white-heading {
@@ -621,6 +622,23 @@
 
 .pd-subscription {
     padding-bottom: 10%;
+    position: relative;
+}
+
+.pd-subscription .container{
+    position: relative;
+    z-index: 9;
+}
+
+.pd-subscription::before{
+    content: "";
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(76, 103, 210, 0.4) 0%, rgba(76, 103, 210, 0) 100%);
+    top: -6%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translateX(-48%);
 }
 
 .pd-subscription .pd-sc-title h2 {
@@ -630,7 +648,8 @@
     font-weight: 400;
     font-size: 55px;
     color: #333333;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
+    letter-spacing: 0.1rem;
 }
 
 .pd-subscription .pd-sc-title h2 span {
@@ -694,6 +713,8 @@
     letter-spacing: 0em;
     color: #333333;
     margin-bottom: 1rem;
+    position: relative;
+    z-index: 9;
 }
 
 .pd-susgrid .pd-ssg-subtitle {
@@ -704,6 +725,8 @@
     letter-spacing: 0em;
     color: #333333;
     margin-bottom: 0px;
+    position: relative;
+    z-index: 9;
 }
 
 .pd-susgrid p {
@@ -713,6 +736,8 @@
     line-height: 25px;
     letter-spacing: 0em;
     color: #676565;
+    position: relative;
+    z-index: 9;
 }
 
 .pd-ssg-1 {
@@ -968,3 +993,48 @@
     mix-blend-mode: overlay;
     opacity: 0.7;
 }
+
+.pd-ssg-sm-1{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    min-height: 200px;
+}
+
+.pd-ssg-sm-2{
+    min-height: 200px;
+}
+
+.pd-h-100{
+    height: 100%;
+}
+
+.pd-ssg-sm-1 .pd-s-ssg-sm-ptn{
+    position: absolute;
+    bottom: 0;
+    width: 148%;
+    left: -5rem;
+    opacity: 0.7;
+}
+
+.pd-ssg-sm-1 .pd-ssg-sm-ptn-svg{
+    position: relative;
+    z-index: 9;
+    left: -2.7rem;
+    top: -0.5rem;
+}
+
+.pd-ssg-sm-2 .pd-s-ssg-gd{
+    width: 275%;
+    height: 258%;
+    bottom: -17rem;
+    right: -13rem;
+    background: radial-gradient(44% 40% at 50% 50%, rgba(61, 69, 255, 0.7) 0%, rgba(61, 69, 255, 0) 100%);
+
+}
+
+.pd-ssg-sm-footprint{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
