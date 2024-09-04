@@ -1236,11 +1236,12 @@
     letter-spacing: 0em;
     color: #575758;
     font-family: var(--fnt-rubik);
+    max-width: 80%;
 }
 
 
 .pd-rev-tab {
-    max-width: 70%;
+    max-width: 75%;
     margin: 4rem auto;
 }
 
@@ -1373,7 +1374,7 @@
     border: 1px solid #D5D6D6;
     backdrop-filter: blur(40px);
     display: inline-block;
-    padding: 22px;
+    padding: 28px;
 }
 
 
@@ -1411,17 +1412,17 @@
 .pd-rb-1{
     position: absolute;
     bottom: 28%;
-    left: 15%;
+    left: 12%;
 }
 
 .pd-rb-2{
     position: absolute;
     bottom: 15%;
-    left: 28%;
+    left: 26%;
 }
 
 .pd-rb-3{
     position: absolute;
     bottom: 2%;
-    left: 15%;
+    left: 12%;
 }
