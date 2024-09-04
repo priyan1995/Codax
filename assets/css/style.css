@@ -1212,6 +1212,7 @@
     line-height: 31px;
     letter-spacing: 0em;
     color: #575758;
+    margin-bottom: 2.5rem;
 }
 
 .pd-rev-tab .pd-tb-cont h5 {
@@ -1219,19 +1220,19 @@
     color: #333333;
     /* Hania Bashir */
     font-family: var(--fnt-rubik);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
 }
 
-.pd-rev-tab .pd-tb-cont  {
-    padding: 3rem;
+.pd-rev-tab .pd-tb-cont {
+    padding: 5rem 3rem;
 }
 
 
 .pd-rev-tab .pd-tb-cont h2 {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: normal;
-    line-height: 49px;
+    line-height: 43px;
     letter-spacing: 0em;
     color: #575758;
     font-family: var(--fnt-rubik);
@@ -1244,24 +1245,57 @@
 }
 
 
-.pd-rev-tab .pd-tb-inner-wrpp{
+.pd-rev-tab .pd-tb-inner-wrpp {
     background: #ECEFF2;
 }
 
 
-.pd-rev-tab {}
+.pd-rev-tab .pd-tb-re-lg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
-.pd-rev-tab {}
+.pd-rev-tab .pd-tb-foot {
+    background: url('../img/tb-footerbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    padding: 20px;
+    border: 3px solid #eceff2;
+    border-radius: 9px;
+}
 
 
-.pd-rev-tab {}
+.pd-rev-tab .col-md-9 {
+    padding-left: 0;
+}
 
 
-.pd-rev-tab {}
+.pd-rev-tab .pd-tb-foot p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: var(--fnt-rubik);
+}
 
 
-.pd-rev-tab {}
+.pd-rev-tab .pd-tb-foot h3 {
+    font-family: var(--fnt-rubik);
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 0;
+}
 
 
-.pd-rev-tab {}
+.pd-rev-tab .pd-tb-re-lg img{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
