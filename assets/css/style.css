@@ -1373,7 +1373,7 @@
     border: 1px solid #D5D6D6;
     backdrop-filter: blur(40px);
     display: inline-block;
-    padding: 15px;
+    padding: 22px;
 }
 
 
@@ -1410,6 +1410,18 @@
 
 .pd-rb-1{
     position: absolute;
-    bottom: 30%;
+    bottom: 28%;
+    left: 15%;
+}
+
+.pd-rb-2{
+    position: absolute;
+    bottom: 15%;
+    left: 28%;
+}
+
+.pd-rb-3{
+    position: absolute;
+    bottom: 2%;
     left: 15%;
 }
