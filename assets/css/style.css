@@ -1130,7 +1130,7 @@
     margin-bottom: 0;
 }
 
-.pd-dep-card-sec::after{
+.pd-dep-card-sec::after {
     content: "";
     background: linear-gradient(180deg, rgba(43, 31, 77, 0) 7%, #0052B4 87%);
     width: 100%;
@@ -1191,7 +1191,7 @@
     font-weight: 400;
 }
 
-.pd-rs-bg-i{
+.pd-rs-bg-i {
     position: absolute;
     left: 0;
     top: 0;
@@ -1199,45 +1199,69 @@
     height: 100%;
 }
 
-.pd-review-sec .container{
+.pd-review-sec .container {
     position: relative;
     z-index: 9;
 }
 
 /* review tab */
 
-.pd-rev-tab{
-
+.pd-rev-tab .pd-tb-cont h2 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: #575758;
 }
 
-.pd-rev-tab{}
+.pd-rev-tab .pd-tb-cont h5 {
+    letter-spacing: 0em;
+    color: #333333;
+    /* Hania Bashir */
+    font-family: var(--fnt-rubik);
+    font-weight: 400;
+    font-size: 16px;
+}
 
-.pd-rev-tab{}
-
-
-.pd-rev-tab{}
-
-
-.pd-rev-tab{}
-
-
-.pd-rev-tab{}
-
-
-.pd-rev-tab{}
+.pd-rev-tab .pd-tb-cont  {
+    padding: 3rem;
+}
 
 
-.pd-rev-tab{}
+.pd-rev-tab .pd-tb-cont h2 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 49px;
+    letter-spacing: 0em;
+    color: #575758;
+    font-family: var(--fnt-rubik);
+}
 
 
-.pd-rev-tab{}
+.pd-rev-tab {
+    max-width: 65%;
+    margin: 4rem auto;
+}
 
 
-.pd-rev-tab{}
+.pd-rev-tab .pd-tb-inner-wrpp{
+    background: #ECEFF2;
+}
 
 
-.pd-rev-tab{}
+.pd-rev-tab {}
 
 
-.pd-rev-tab{}
+.pd-rev-tab {}
 
+
+.pd-rev-tab {}
+
+
+.pd-rev-tab {}
+
+
+.pd-rev-tab {}
+
+
+.pd-rev-tab {}
