@@ -1512,17 +1512,47 @@
     </section>
 
 
-
     <!--  =================================== services slider -->
     <section class="pd-serv-sld-sec">
         <img src="./assets/img/serv-bg-grad.png" class="pd-serv-sld-gry" />
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 pd-ss-titl">
+                    <h2>Access <span>80+ </span>services under one roof</h2>
+                    <p> Get a gist of Codax services and experience your startup grow exponentially. Build a
+                        <span>Long-Term Business</span>, Achieve <span>Market Dominance</span> and <span>Scale
+                            Profitably.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="pd-serv-slider">
+                <div class="pd-services-slider">
+                    <div>
+                        <div class="pd-sv-sld-item">
+                            <img src="./assets/img/serv-si-bg-large.png" class="pd-sv-bg-l" />
+                            <img src="./assets/img/ser-si-lbl-emb.png" class="pd-sv-bg-emb" />
+                            <div class="pd-ss-it-content">
+                                <h2>Content Creation & Editing</h2>
+                                <p>video editing
+                                    quality control
+                                    content proof reading
+                                    ad copywriting
+                                    email marketing content
+                                    blog & article writing
+                                    website content writing
+                                    post production services
+                                    newsletter creation</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -1552,6 +1582,20 @@
                 pauseOnFocus: false,
                 pauseOnHover: false
             });
+
+            $('.pd-services-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 1,
+                speed: 6000,
+                dots: false,
+                cssEase: 'linear',
+                waitForAnimate: false,
+                pauseOnFocus: false,
+                pauseOnHover: false
+            });
+
         });
     </script>
 
