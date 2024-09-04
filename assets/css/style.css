@@ -1576,11 +1576,11 @@
     border-radius: 50px;
     color: white;
     opacity: 1;
-    background: linear-gradient(161deg, rgba(249, 252, 255, 0.38) 5%, rgba(249, 252, 255, 0.38) 13%, rgba(149, 151, 153, 0.02) 78%);
+    background: linear-gradient(161deg, rgb(249 252 255 / 30%) 5%, rgb(198 198 198 / 55%) 13%, rgb(159 159 159 / 0%) 78%);
     box-sizing: border-box;
     border: none;
     backdrop-filter: blur(71px);
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15), inset 9px 14px 20px 0px rgb(255 255 255);
     filter: opacity(0.5);
     transform: translateX(-80%);
 }
@@ -1607,7 +1607,7 @@
 
 .pd-ss-sec-grad{
     position: absolute;
-    bottom: -5%;
+    bottom: 5%;
     left: -6%;
     width: 100%;
 }
@@ -1626,4 +1626,17 @@
 .pd-serv-sld-sec .container{
     position: relative;
     z-index: 99;
+}
+
+.pd-ssslider-btn-wrapper{
+    text-align: right;
+    margin-top: 2rem;
+}
+
+
+.pd-ssslider-btn-wrapper button{
+    border: none;
+    margin-left: auto;
+    display: inline-block;
+    background: transparent;
 }
