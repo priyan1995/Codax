@@ -1666,10 +1666,11 @@
 /* worldwide section */
 .pd-wordwide-sec{
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
     position: relative;
 }
 
+.pd-join-us-sec .pd-ss-titl h2,
 .pd-wordwide-sec .pd-ss-titl h2{
     text-align: center;
     font-family: var(--fnt-rubik);
@@ -1679,6 +1680,7 @@
     color: #333333;
 }
 
+.pd-join-us-sec .pd-ss-titl h2 span,
 .pd-wordwide-sec .pd-ss-titl h2 span{
     font-weight: 100;
     background: linear-gradient(95deg, #8214a2, #707EFB);
@@ -1688,7 +1690,11 @@
     font-weight: 300;
 }
 
-.pd-wordwide-sec .pd-ss-titl p{
+
+
+.pd-join-us-sec .pd-ss-titl p,
+.pd-wordwide-sec .pd-ss-titl p
+{
     font-family: var(--fnt-dmsans);
     font-size: 24px;
     font-weight: 400;
@@ -1704,3 +1710,30 @@
 .pd-wordwide-sec .pd-ss-titl{
     margin-bottom: 3rem;
 }
+
+
+/* === join us section === */
+
+.pd-join-us-sec{
+    position: relative;
+    overflow: hidden;
+}
+
+.pd-join-us-sec .pd-ss-titl p{
+    max-width: 33%;
+}
+
+
+.pd-ju-card h1{
+    font-size: 96px;
+font-weight: normal;
+line-height: normal;
+text-align: center;
+letter-spacing: 0em;
+background: linear-gradient(180deg, #F9FCFF 20%, rgba(249, 252, 255, 0.5) 92%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
