@@ -1840,3 +1840,24 @@
     color: #333333;
     font-family: var(--fnt-dmsans);
 }
+
+.pd-reg-item{
+    display: flex;
+    background: white;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pd-reg-item .pd-flg{}
+
+
+.pd-reg-item h2{}
+
+
+.pd-reg-item p{
+    margin-bottom: 0;
+}
+
+.pd-reg-item p img{ }
+
