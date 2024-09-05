@@ -1717,6 +1717,7 @@
 .pd-join-us-sec{
     position: relative;
     overflow: hidden;
+    min-height: 1370px;
 }
 
 .pd-join-us-sec .pd-ss-titl p{
@@ -1737,3 +1738,36 @@ background-clip: text;
 text-fill-color: transparent;
 }
 
+.pd-ww-img-bg-1{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+}
+
+.pd-ww-img-bg-2{
+    position: absolute;
+    left: 17%;
+    bottom: 22%;
+    z-index: 9;
+    width: 50%;
+}
+
+.pd-ww-img-bg-3{
+    position: absolute;
+    left: 24%;
+    bottom: 25%;
+    transform: rotate(8deg);
+}
+
+.pd-ww-img-bg-4{
+    position: absolute;
+    left: 17%;
+    bottom: 22%;
+    width: 58%;
+}
+
+.pd-join-us-sec .container{
+    position: relative;
+    z-index: 999;
+}
