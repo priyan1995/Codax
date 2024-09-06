@@ -1912,9 +1912,8 @@
 
 /* contact  */
 .pd-cont-sec {
-    padding: 8% 0;
+    padding-top: 8%;
     background: #191919;
-    min-height: 1800px;
     position: relative;
     overflow: hidden;
 }
@@ -2037,3 +2036,51 @@
     border: 4px solid #F5F8FB;
 }
 
+/* footer */
+
+.pd-footer {}
+
+.pd-footer .pd-footer-lgo {}
+
+.pd-footer .pd-footer-menu {}
+
+.pd-footer .pd-footer-menu h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #F9FCFF;
+    font-family: var(--fnt-dmsans);
+    margin-bottom: 1rem;
+
+}
+
+
+.pd-footer .pd-footer-menu p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #F9FCFF;
+    line-height: 28px;
+}
+
+
+.pd-footer .pd-footer-menu a {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #F9FCFF;
+    display: block;
+    width: 100%;
+    text-decoration: none !important;
+    line-height: 28px;
+}
+
+.pd-footer-sl a{
+    margin-bottom: 0.5rem;
+}
+
+.pd-footer{
+    padding-top: 4rem;
+    padding-bottom: 5%;
+}
