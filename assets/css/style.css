@@ -1916,19 +1916,20 @@
     background: #191919;
     position: relative;
     overflow: hidden;
+    padding-bottom: 5%;
 }
 
 .pd-fg-1 {
     position: absolute;
     left: -26%;
-    top: 35%;
+    top: 5%;
     z-index: 1;
 }
 
 .pd-fg-2 {
     position: absolute;
     left: -51%;
-    top: -10%;
+    top: -40rem;
     width: 100%;
 }
 
@@ -1936,7 +1937,7 @@
 .pd-fg-3 {
     position: absolute;
     left: -55%;
-    bottom: -41%;
+    bottom: -30%;
     width: 100%;
 
 }
@@ -1979,6 +1980,21 @@
     letter-spacing: 0em;
     color: #F5F8FB;
     font-family: var(--fnt-rubik);
+    list-style: none;
+    position: relative;
+}
+
+.pd-cont-fm-foot li::before{
+    content: "";
+    width: 9px;
+    height: 15px;
+    position: absolute;
+    top: 21px;
+    background-image: url(../img/tick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -22px;
 }
 
 .pd-cont-form {
@@ -2038,7 +2054,11 @@
 
 /* footer */
 
-.pd-footer {}
+.pd-footer {
+    border-bottom: 0.7px solid #474747;
+    padding-bottom: 4rem;
+    padding-top: 7rem;
+}
 
 .pd-footer .pd-footer-lgo {}
 
@@ -2069,7 +2089,7 @@
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0px;
-    color: #F9FCFF;
+    color: #f9fcffe8;
     display: block;
     width: 100%;
     text-decoration: none !important;
@@ -2080,7 +2100,6 @@
     margin-bottom: 0.5rem;
 }
 
-.pd-footer{
-    padding-top: 4rem;
-    padding-bottom: 5%;
+.pd-fm-scl{
+    margin: 1rem 0;
 }
