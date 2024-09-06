@@ -1909,3 +1909,34 @@
 .regions{
     margin-top: 4rem;
 }
+
+/* contact  */
+.pd-cont-sec{
+    padding: 5% 0; 
+    background: #191919;
+    min-height: 1800px;
+    position: relative;
+}
+
+.pd-fg-1{
+    position: absolute;
+    left: -26%;
+    top: 35%;
+    z-index: 1;
+}
+
+.pd-fg-2{
+    position: absolute;
+    left: -51%;
+    top: -10%;
+    width: 100%;
+}
+
+
+.pd-fg-3{
+    position: absolute;
+    left: -55%;
+    bottom: -41%;
+    width: 100%;
+
+}
