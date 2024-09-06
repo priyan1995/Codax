@@ -1956,7 +1956,7 @@
     color: #F5F8FB;
     font-family: var(--fnt-rubik);
     padding-bottom: 3rem;
-
+    margin-top: 5rem;
 }
 
 .pd-cont-fm-foot p {
@@ -1976,7 +1976,7 @@
 .pd-cont-fm-foot li {
     font-size: 20px;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 3.5rem;
     letter-spacing: 0em;
     color: #F5F8FB;
     font-family: var(--fnt-rubik);
@@ -2026,8 +2026,6 @@
 .pd-cont-form button {
     border-radius: 8px;
     opacity: 1;
-    background: linear-gradient(90deg, #6728F1 rgb(53, 54, 56)78C9 50%, #6826F2 100%);
-    border: 4px solid #F5F8FB;
     width: 60%;
     padding: 20px;
     color: white;
@@ -2035,4 +2033,6 @@
     margin: auto;
     display: block;
     margin-top: 2rem;
+    background: linear-gradient(90deg, #6728F1 0%, #4478C9 50%, #6826F2 100%);
+    border: 4px solid #F5F8FB;
 }
