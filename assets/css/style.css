@@ -1716,7 +1716,7 @@
 .pd-join-us-sec {
     position: relative;
     overflow: hidden;
-    min-height: 1370px;
+    padding-bottom:10%;
 }
 
 .pd-join-us-sec .pd-ss-titl p {
@@ -1870,7 +1870,7 @@
 
 .pd-reg-item h2 {
     font-family: var(--fnt-dmsans);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0em;
