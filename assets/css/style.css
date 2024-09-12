@@ -625,6 +625,7 @@
 .pd-subscription {
     padding-bottom: 10%;
     position: relative;
+    padding-top: 5%;
 }
 
 .pd-subscription .container {
@@ -636,7 +637,7 @@
     content: "";
     position: absolute;
     background: radial-gradient(50% 50% at 50% 50%, rgba(76, 103, 210, 0.4) 0%, rgba(76, 103, 210, 0) 100%);
-    top: -6%;
+    top: -1%;
     left: 50%;
     width: 80%;
     height: 80%;
