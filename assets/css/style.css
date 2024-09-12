@@ -2130,4 +2130,57 @@
     width: 120px;
 }
 
+.pd-departments::before{
+    display: none;
+}
+
+.pd-partners-slider-sec{
+    position: relative;
+    padding-top: 10%;
+}
+
+.pd-partners-slider-sec::before {
+    content: "";
+    background: url(../img/sec-grad-line.png);
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.pd-partners-slider-sec h2{
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-size: 55px;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+.pd-l-s{
+    bottom: 12%;
+}
+
+.pd-r-s{
+    bottom: 14%;
+}
+
+@media (min-width:2000px){
+    .pd-partners-slider-sec::before{
+        background: linear-gradient(180deg, #060011 0%, rgba(249, 252, 255, 0) 100%);
+    }
+
+    .pd-nav-grad-tl-img{
+        display: none;
+    }
+}
+
+
+
 /* change content end */
