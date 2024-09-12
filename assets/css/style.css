@@ -2115,5 +2115,18 @@
     line-height: 40px;
     max-width: 100%;
 }
+.pd-ibd-1{
+    width: 180px;
+}
+
+.pd-ibd-2{
+    width: 113px;
+    right: 15%;
+}
+
+.pd-ibd-3{
+    right: 18.5%;
+    width: 120px;
+}
 
 /* change content end */
