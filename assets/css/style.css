@@ -5,7 +5,7 @@
     padding-bottom: var(--padding);
     position: relative;
     padding-top: 10rem;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     overflow: hidden;
 }
 
@@ -450,8 +450,8 @@
 /* departments */
 
 .pd-departments {
-    padding-top: 12%;
-    padding-bottom: 10%;
+    padding-top: var(--pad-top-full);
+    padding-bottom:  0;
     position: relative;
 }
 
@@ -609,9 +609,9 @@
 /* subscription section */
 
 .pd-subscription {
-    padding-bottom: 10%;
+    /* padding-bottom: var(--pad-bot-full); */
     position: relative;
-    padding-top: 5%;
+    padding-top: var(--pad-top-full);
 }
 
 .pd-subscription .container {
@@ -1032,8 +1032,8 @@
 /* dep-card */
 
 .pd-dep-card-sec {
-    padding-top: 5%;
-    padding-bottom: 20%;
+    padding-top: var(--pad-top-full);
+    padding-bottom: 13%;
     position: relative;
 }
 
@@ -1662,7 +1662,7 @@
 
 /* worldwide section */
 .pd-wordwide-sec {
-    padding-top: 5%;
+    padding-top: 0;
     padding-bottom: 0%;
     position: relative;
 }
@@ -1910,7 +1910,7 @@
 
 /* contact  */
 .pd-cont-sec {
-    padding-top: 8%;
+    padding-top: var(--pad-top-full);
     background: #191919;
     position: relative;
     overflow: hidden;
