@@ -66,7 +66,7 @@ a {
     text-align: center;
     letter-spacing: 0em;
 
-    font-weight: 400;
+    font-weight: 500;
     font-size: 55px;
     /* Join the new wave of */
     color: #333333;
@@ -78,9 +78,16 @@ a {
     line-height: 76px;
     text-align: center;
     letter-spacing: 0em;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 55px;
 
+    background: linear-gradient(95deg, #8214a2, #247AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.pd-fs-bl{
     background: linear-gradient(95deg, #8214a2, #247AFF);
     -webkit-background-clip: text;
     background-clip: text;
