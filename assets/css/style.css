@@ -2181,6 +2181,12 @@
     }
 }
 
+.pd-linkdn-svg{
+    margin-left: -1px;
+}
 
+.pd-linkdn-svg path{
+    fill: white;
+}
 
 /* change content end */
