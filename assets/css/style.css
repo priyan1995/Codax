@@ -2364,3 +2364,12 @@
     bottom: 6%;
     transform: rotate(18deg);
 }
+
+.pd-sn-c-cd{
+    transform: unset;
+    padding-top: 0;
+}
+
+.pd-sn-ccdimg{
+
+}
