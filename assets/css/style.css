@@ -2337,3 +2337,30 @@
     right: 38%;
     bottom: 6%;
 }
+
+.pd-sn-lcard-2{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pd-sn-c-wrp-2{
+    transform: rotate(-10deg);
+    padding-left: 8rem;
+    padding-right: 5rem;
+}
+
+.pd-snc-sv-3{
+    position: absolute;
+    left: 24%;
+    top: 0.3rem;
+}
+
+.pd-snc-sv-4{
+    position: absolute;
+    left: 3rem;
+    bottom: 6%;
+    transform: rotate(18deg);
+}
