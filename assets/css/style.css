@@ -2625,3 +2625,10 @@
         background-position: 100% 600%;
     }
 }
+
+@media (min-width:1700px){
+    .pd-sn-sec-gdr-br{
+        width: 1520px;
+        margin: auto;
+    }
+}
