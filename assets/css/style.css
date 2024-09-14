@@ -2250,14 +2250,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-19rem);
-    top: -20%;
+    top: -11%;
 }
 
 .stng-c-2 {
     position: absolute;
     left: 50%;
     transform: translateX(-26rem);
-    top: -20%;
+    top: -14%;
 }
 
 
@@ -2265,7 +2265,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-31rem);
-    top: -16%;
+    top: -13%;
 
 }
 
@@ -2278,6 +2278,10 @@
     padding-top: 10rem;
     position: relative;
     z-index: 99;
+    background-image: url('../img/strs-bg-tb.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
 }
 
 .pd-sup-t-c .col-lg-4 {
@@ -2382,8 +2386,8 @@
 
 .pd-snc-sv-4 {
     position: absolute;
-    left: 3rem;
-    bottom: 6%;
+    left: 2rem;
+    bottom: 0%;
     transform: rotate(18deg);
 }
 
@@ -2540,6 +2544,7 @@
     letter-spacing: 0em;
     font-family: var(--fnt-dmsans);
     color: #FF6565;
+    margin-bottom: 0;
 }
 
 .pdppc-1{
@@ -2559,4 +2564,25 @@
     right: 26%;
     top: 46%;
     transform: rotate(8deg);
+}
+
+
+/* tab pane 2 */
+
+.pd-tp-2 .pd-sn-c-wrp{
+    height: 100%;
+}
+
+.pd-tp-2 .pd-snc-sv-4{
+    bottom: 9%;
+}
+
+.pd-tp-2 .pd-sn-c-cd h4,
+.pd-tp-2 .pd-precent-card h1,
+.pd-tp-2 .pd-precent-card p{
+    color:#3CBD68;
+}
+
+.pd-tp-2  .pd-precent-card{
+    border-color: #3CBD68;
 }
