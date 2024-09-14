@@ -2191,6 +2191,13 @@
 
 .pd-startup-needs-sec{
     padding-top: var(--pad-top-full);
+    position: relative;
+    overflow: hidden;
+}
+
+.pd-startup-needs-sec .container{
+    z-index: 9;
+    position: relative;
 }
 
 .pd-startup-needs-sec .pd-sc-title h2{
@@ -2225,3 +2232,22 @@
     text-align: center;
     margin-bottom: 4rem;
 }
+
+.st-nd-bg{
+    position: absolute;
+}
+
+.stng-c-1{
+    position: absolute;
+}
+
+.stng-c-2{
+    position: absolute;
+}
+
+
+.stng-c-3{
+    position: absolute;
+}
+
+
