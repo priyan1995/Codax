@@ -2204,6 +2204,7 @@
     box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
     padding-top: 4rem;
     overflow: hidden;
+    background-color: #F9FCFF;
 }
 
 .pd-startup-needs-sec {
@@ -2600,4 +2601,27 @@
 
 .pd-slnc-1-c .pd-sn-c-wrp{
     margin-left: -1rem;
+}
+
+.pd-sn-sec-gdr-br{
+    padding: 10px;
+    border-radius: 47px;
+    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #6922F3, rgba(105, 34, 243, 0));
+    animation: animateBg 30s linear infinite;
+    background-position: 26% 100%;
+    background-size: 400% 219%;
+}
+
+@keyframes animateBg {
+    0% {
+        background-position: 26% 100%;
+    }
+
+    33% {
+        background-position: 0% 400%;
+    }
+
+    66% {
+        background-position: 100% 600%;
+    }
 }
