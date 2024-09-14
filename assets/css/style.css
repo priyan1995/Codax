@@ -2242,6 +2242,8 @@
 
 .st-nd-bg {
     position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .stng-c-1 {
@@ -2413,7 +2415,7 @@
     margin-top: -10px;
 }
 
-.pd-snc-inp-wrap input{
+.pd-snc-inp-wrap input {
     border-radius: 4px;
     opacity: 1;
     box-sizing: border-box;
@@ -2426,7 +2428,7 @@
     outline: none !important;
 }
 
-.pd-snc-inp-wrap label{
+.pd-snc-inp-wrap label {
     background: #f9fcff;
     padding: 1px 10px;
     bottom: -10px;
@@ -2436,7 +2438,7 @@
 }
 
 
-.pd-sn-sec-wrpp .nav-tabs{
+.pd-sn-sec-wrpp .nav-tabs {
     border: none;
     padding: 5px;
     width: fit-content;
@@ -2450,7 +2452,7 @@
     position: relative;
 }
 
-.pd-sn-sec-wrpp .nav-item{
+.pd-sn-sec-wrpp .nav-item {
     /* background: linear-gradient(90deg, #6924F3 0%, #4C67D2 100%); */
     /* border-radius: 50px;
     min-width: 245px;
@@ -2464,7 +2466,7 @@
 
 
 
-.pd-sn-sec-wrpp .nav-link{
+.pd-sn-sec-wrpp .nav-link {
     border: none;
     background: transparent !important;
     font-size: 16px;
@@ -2478,9 +2480,10 @@
     min-width: 245px;
     padding: 12px !important;
     margin: 5px;
+    text-shadow: 0px 0px 15px #F9FCFF;
 }
 
-.pd-sn-sec-wrpp .nav-link::after{
+.pd-sn-sec-wrpp .nav-link::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -2495,7 +2498,65 @@
     transform: translateX(210%);
 }
 
-.pd-sn-sec-wrpp .nav-link.active::after{
+.pd-sn-sec-wrpp .nav-link.active::after {
     opacity: 1;
     transform: translateX(0px);
+}
+
+.pd-precent-card {
+    border-radius: 11px;
+    opacity: 1;
+    background: rgba(217, 217, 217, 0.01);
+    box-sizing: border-box;
+    border: 7px solid #FF6565;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    z-index: 999;
+    right: 0;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pd-precent-card h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #FF6565;
+}
+
+.pd-precent-card p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-family: var(--fnt-dmsans);
+    color: #FF6565;
+}
+
+.pdppc-1{
+    left: 27%;
+    top: 12%;
+    transform: rotate(346deg);
+}
+
+.pdppc-2{
+    left: 26%;
+    top: 65%;
+    transform: rotate(13deg);
+}
+
+
+.pdppc-3{
+    right: 26%;
+    top: 46%;
+    transform: rotate(8deg);
 }
