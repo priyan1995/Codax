@@ -1,0 +1,95 @@
+* {
+    font-family: var(--fnt-dmsans);
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+}
+section {
+    overflow-x: hidden;
+}
+
+body {
+    background: #F9FCFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--fnt-rubik);
+}
+
+
+@media (max-width:1750px) {
+    .container {
+        padding-right: calc(var(--bs-gutter-x)* 3) !important;
+        padding-left: calc(var(--bs-gutter-x)* 3) !important;
+        max-width: 100%;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+p,
+ul,
+li,
+a {
+    color: var(--paraColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pd-full-padding {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.pd-dark-bg {
+    background: var(--darkBg);
+}
+
+.pd-light-title {
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+
+    font-weight: 500;
+    font-size: 55px;
+    /* Join the new wave of */
+    color: #333333;
+
+}
+
+.pd-light-blue-title{
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-weight: 900;
+    font-size: 55px;
+
+    background: linear-gradient(95deg, #8214a2, #247AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.pd-fs-bl{
+    background: linear-gradient(95deg, #8214a2, #247AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
