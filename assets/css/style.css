@@ -2705,6 +2705,15 @@
     padding-bottom: 3%;
 }
 
+.pd-partners-slider-sec .pd-part-sld-bg{
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    height: 100%;
+    top: 0;
+}
+
+
 .pd-partners-slider-sec .pd-partners-pattern {
     position: absolute;
     top: 0;
