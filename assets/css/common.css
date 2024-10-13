@@ -62,14 +62,13 @@ a {
 
 .pd-light-title {
     font-family: var(--fnt-rubik);
-    line-height: 76px;
+    line-height: 58px;
     text-align: center;
     letter-spacing: 0em;
-
     font-weight: 500;
     font-size: 55px;
-    /* Join the new wave of */
     color: #333333;
+    margin: 0;
 
 }
 
@@ -78,10 +77,10 @@ a {
     line-height: 76px;
     text-align: center;
     letter-spacing: 0em;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 55px;
 
-    background: linear-gradient(95deg, #8214a2, #247AFF);
+    background: linear-gradient(270deg, #3198ff 0%, #00046F 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

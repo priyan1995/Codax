@@ -475,9 +475,7 @@
 
 .pd-departments {
     padding-top: var(--pad-top-full);
-    padding-bottom: 0;
     position: relative;
-    padding-top: 0;
 }
 
 .pd-departments::before {
@@ -526,16 +524,19 @@
 }
 
 .pd-pink-gb {
-    background: radial-gradient(156% 81% at 49% 100%, #BD24F3 0%, #191919 100%);
+    /* background: radial-gradient(156% 81% at 49% 100%, #BD24F3 0%, #191919 100%); */
+    background: radial-gradient(156% 81% at 49% 100%, #007DFC 0%, #191919 100%);
 }
 
 .pd-purple-gb {
-    background: radial-gradient(149% 78% at 49% 100%, rgba(20, 0, 255, 0.7) 0%, #191919 100%);
+    /* background: radial-gradient(149% 78% at 49% 100%, rgba(20, 0, 255, 0.7) 0%, #191919 100%); */
+    background: radial-gradient(149% 78% at 49% 100%, #000670 0%, #191919 100%);
 }
 
 .pd-dk-purple-gb {
     height: calc(100% - 40px);
-    background: radial-gradient(255% 172% at 80% 12%, #191919 0%, #8000FF 100%);
+    /* background: radial-gradient(255% 172% at 80% 12%, #191919 0%, #8000FF 100%); */
+    background: radial-gradient(409% 172% at 80% 12%, #191919 0%, #000670 100%);
 }
 
 .pd-dip-grad-box h2 {
@@ -2705,7 +2706,7 @@
     padding-bottom: 3%;
 }
 
-.pd-partners-slider-sec .pd-part-sld-bg{
+.pd-partners-slider-sec .pd-part-sld-bg {
     width: 100%;
     position: absolute;
     z-index: 9;
