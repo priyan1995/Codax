@@ -1114,7 +1114,7 @@
 
 .pd-dep-card h2 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     text-align: center;
     letter-spacing: 0em;
@@ -1124,7 +1124,8 @@
 }
 
 .pd-dep-card h2 span {
-    background: linear-gradient(95deg, #8214a2, #707EFB);
+    /* background: linear-gradient(95deg, #8214a2, #707EFB); */
+    background: linear-gradient(95deg, #6924F3, #4C67D2);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -1138,9 +1139,9 @@
 .pd-dc-btn {
     align-items: center;
     margin: 18px auto;
-    width: 65%;
+    width: 70%;
     border: 1px solid;
-    padding: 18px 10px;
+    padding: 18px 25px;
     border-radius: 84px;
 }
 
@@ -1148,7 +1149,7 @@
     text-align: left;
     margin-bottom: 1px;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .pd-dep-card p {
@@ -1160,7 +1161,7 @@
 
 .pd-dc-btn h1 {
     font-weight: 500;
-    color: #4c67d2;
+    color: #0052B4;
     font-size: 4rem;
     margin-bottom: 0;
 }
@@ -1713,11 +1714,11 @@
 .pd-join-us-sec .pd-ss-titl h2 span,
 .pd-wordwide-sec .pd-ss-titl h2 span {
     font-weight: 100;
-    background: linear-gradient(95deg, #8214a2, #707EFB);
+    background: linear-gradient(56deg, #4c7fff 0%, #662fea 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-weight: 900;
+    font-weight: 700;
     font-family: var(--fnt-rubik);
 }
 
@@ -2257,11 +2258,11 @@
 }
 
 .pd-startup-needs-sec .pd-sc-title h2 span {
-    background: linear-gradient(95deg, #8214a2, #707EFB);
+    background: linear-gradient(56deg, #4c7fff 0%, #662fea 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 11px;
     font-family: var(--fnt-rubik);
     text-align: center;
@@ -2641,7 +2642,7 @@
 .pd-sn-sec-gdr-br {
     padding: 10px;
     border-radius: 47px;
-    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #6922F3, rgba(105, 34, 243, 0));
+    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #007DFC, rgba(105, 34, 243, 0));
     animation: animateBg 30s linear infinite;
     background-position: 26% 100%;
     background-size: 400% 219%;
