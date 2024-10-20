@@ -1301,7 +1301,7 @@
 
 .pd-rev-tab {
     max-width: 75%;
-    margin: 4rem auto;
+    margin: 4rem 5px;
     padding: 5px;
     border-radius: 14px;
     background: linear-gradient(180deg, #0080FF, #0080FF, rgb(76 42 140));
@@ -1319,6 +1319,10 @@
     background: #ECEFF2;
     border-radius: 9px;
     overflow: hidden;
+}
+
+.pd-testim-slider{
+    padding: 0 10%;
 }
 
 
@@ -1371,7 +1375,7 @@
 .pd-rev-tab .pd-tb-re-lg img {
     width: 90%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .pd-rev-tab .nav-tabs {
@@ -1418,6 +1422,42 @@
     transform: translateY(140%);
 
 }
+
+.pd-testim-slider .slick-arrow{
+    background: #ECEFF2;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.pd-testim-slider .slick-prev:before, .pd-testim-slider .slick-next:before{
+    font-family: 'Rubik';
+    font-size: 25px;
+    line-height: 1;
+    opacity: 1;
+    color: #868686;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 4px;
+}
+
+.pd-testim-slider  .slick-next:before {
+    content: '>';
+}
+
+.pd-testim-slider  .slick-prev:before {
+    content: '<';
+    margin-left: -2px;
+}
+
+.pd-testim-slider .slick-prev {
+    left: 5px;
+}
+
+.pd-testim-slider .slick-next {
+    right: 5px;
+}
+
 
 
 
