@@ -1432,7 +1432,7 @@
 }
 
 .pd-testim-slider .slick-prev:before, .pd-testim-slider .slick-next:before{
-    font-family: 'Rubik';
+    font-family: 'DM Sans';
     font-size: 25px;
     line-height: 1;
     opacity: 1;
@@ -1440,6 +1440,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-left: 4px;
+    line-height: 8px;
 }
 
 .pd-testim-slider  .slick-next:before {
