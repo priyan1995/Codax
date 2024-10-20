@@ -1181,6 +1181,7 @@
 .pd-review-sec {
     position: relative;
     padding-bottom: 10%;
+    overflow: visible;
     /* background: #191919; */
 }
 
@@ -1459,6 +1460,27 @@
 }
 
 
+.pd-rs-grad{
+    position: absolute;
+    opacity: 1;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(94, 168, 255, 0.4) 0%, rgba(94, 168, 255, 0) 100%);
+    top: -30%;
+    right: -23%;
+    width: 60%;
+    height: 80%;
+}
+
+.pd-rs-grad-2{
+    position: absolute;
+    opacity: 1;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(94, 168, 255, 0.4) 0%, rgba(94, 168, 255, 0) 100%);
+    bottom: -17%;
+    left: -33%;
+    width: 80%;
+    height: 85%;
+}
+
+
 
 
 .pd-rev-tab .nav-link:hover::after,
@@ -1542,15 +1564,16 @@
 .pd-rs-bg-bottm-grad-line {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    left: 0;
+    width: auto;
+    right: 0;
+    top: 0;
 }
 
 .pd-rs-bg-top-grad-line {
     position: absolute;
-    top: 0;
-    width: 100%;
+    width: auto;
     left: 0;
+    bottom: 0;
 }
 
 /* services slider */
