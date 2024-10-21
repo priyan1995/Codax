@@ -2837,3 +2837,10 @@
     top: -70%;
     width: 62%;
 }
+
+/* team slider sec */
+
+.pd-team-sec{
+    padding-top: 10%;
+    padding-bottom: 0;
+}

@@ -12,6 +12,7 @@ section {
 
 body {
     background: #F9FCFF;
+    overflow-x: hidden;
 }
 
 h1,
