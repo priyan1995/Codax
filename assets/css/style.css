@@ -2557,7 +2557,7 @@
     text-align: left;
     letter-spacing: 0em;
     color: #FF6565;
-    font-family: var(--fnt-rubik);
+    font-family: "Rubik", sans-serif;
     margin-top: -10px;
 }
 
@@ -2676,6 +2676,7 @@
     text-align: center;
     letter-spacing: 0em;
     color: #FF6565;
+    font-family: "Rubik", sans-serif;
 }
 
 .pd-precent-card p {
