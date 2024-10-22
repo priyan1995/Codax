@@ -2039,8 +2039,8 @@
     overflow: hidden;
     padding-bottom: 5%;
     padding-top: 0;
-    border-top-left-radius: 8rem;
-    border-top-right-radius: 8rem;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
     overflow: hidden;
 }
 
@@ -2085,7 +2085,7 @@
     color: #F5F8FB;
     font-family: var(--fnt-rubik);
     padding-bottom: 3rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-right: 5rem;
 }
 
@@ -2131,11 +2131,18 @@
     opacity: 1;
     background: #F5F8FB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 3rem;
+    padding: 5rem;
     margin-top: 7px;
     border-radius: 0;
-    border-top-right-radius: 122px;
+    border-top-right-radius: 90px;
     margin-right: 7px;
+    padding-top: 6rem;
+}
+
+.pd-cont-form form{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
 }
 
 .pd-cont-form h3 {
@@ -2160,24 +2167,24 @@
 
 .pd-cont-form input,
 .pd-cont-form textarea {
-    border: none;
-    border-bottom: 1.5px solid #D0D1D3;
     padding: 10px;
     outline: none !important;
-    width: 100%;
-    display: block;
-    background: transparent;
-    margin: 25px 0;
+    width: 48%;
+    margin: 18px 0;
     font-size: 20px;
     font-weight: 200;
 
     border-radius: 8px;
-opacity: 1;
-background: #EEF3FF;
-box-sizing: border-box;
-border: 1px solid #BABBC0;
+    opacity: 1;
+    background: #EEF3FF;
+    box-sizing: border-box;
+    border: 1px solid #BABBC0;
 }
 
+.pd-cont-form textarea{
+    width: 97%;
+    min-height: 240px;
+}
 
 .pd-cont-form button {
     border-radius: 8px;
@@ -2189,8 +2196,9 @@ border: 1px solid #BABBC0;
     margin: auto;
     display: block;
     margin-top: 2rem;
-    background: linear-gradient(90deg, #6728F1 0%, #4478C9 50%, #6826F2 100%);
+    /* background: linear-gradient(90deg, #6728F1 0%, #4478C9 50%, #6826F2 100%); */
     border: 4px solid #F5F8FB;
+    background: linear-gradient(270deg, #0080FF 0%, #00046F 100%);
 }
 
 /* footer */
