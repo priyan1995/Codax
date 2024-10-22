@@ -1308,7 +1308,7 @@
     background: linear-gradient(180deg, #0080FF, #0080FF, rgb(76 42 140));
     background-position: 100% 100%;
     background-size: 122% 119%;
-
+    margin-bottom: 0;
 }
 
 .pd-rev-tab .pd-tb-inner-wrpp .col-md-3 {
@@ -2034,11 +2034,18 @@
 
 /* contact  */
 .pd-cont-sec {
-    padding-top: var(--pad-top-full);
     background: #191919;
     position: relative;
     overflow: hidden;
     padding-bottom: 5%;
+    padding-top: 0;
+    border-top-left-radius: 8rem;
+    border-top-right-radius: 8rem;
+    overflow: hidden;
+}
+
+.pd-cont-sec .container{
+    padding-right: 0 !important;
 }
 
 .pd-fg-1 {
@@ -2072,13 +2079,14 @@
 
 .pd-cont-fm-foot h2 {
     font-size: 55px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 67px;
     letter-spacing: 0em;
     color: #F5F8FB;
     font-family: var(--fnt-rubik);
     padding-bottom: 3rem;
-    margin-top: 5rem;
+    padding-top: 8rem;
+    padding-right: 5rem;
 }
 
 .pd-cont-fm-foot p {
@@ -2092,7 +2100,7 @@
 }
 
 .pd-cont-fm-foot ul {
-    padding-top: 3rem;
+    padding-top: 0rem;
 }
 
 .pd-cont-fm-foot li {
@@ -2120,12 +2128,14 @@
 }
 
 .pd-cont-form {
-    border-radius: 11px;
     opacity: 1;
     background: #F5F8FB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 3rem;
-    margin-top: 2rem;
+    margin-top: 7px;
+    border-radius: 0;
+    border-top-right-radius: 122px;
+    margin-right: 7px;
 }
 
 .pd-cont-form h3 {
@@ -2139,12 +2149,13 @@
 }
 
 .pd-cont-form p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 0em;
     color: #333333;
     font-family: var(--fnt-rubik);
+    margin-top: 5px;
 }
 
 .pd-cont-form input,
@@ -2159,6 +2170,12 @@
     margin: 25px 0;
     font-size: 20px;
     font-weight: 200;
+
+    border-radius: 8px;
+opacity: 1;
+background: #EEF3FF;
+box-sizing: border-box;
+border: 1px solid #BABBC0;
 }
 
 
@@ -2329,6 +2346,7 @@
     padding-top: var(--pad-top-full);
     position: relative;
     overflow: hidden;
+    padding-bottom: var(--pad-bot-full);
 }
 
 .pd-startup-needs-sec .pd-sn-sec-wrpp {
