@@ -2037,7 +2037,7 @@
     background: #191919;
     position: relative;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-top: 0;
     border-top-left-radius: 6rem;
     border-top-right-radius: 6rem;
@@ -2204,9 +2204,21 @@
 /* footer */
 
 .pd-footer {
-    border-bottom: 0.7px solid #474747;
+    /* border-bottom: 0.7px solid #F4F7FF; */
     padding-bottom: 4rem;
     padding-top: 7rem;
+    position: relative;
+}
+
+.pd-footer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1rem;
+    border-bottom: 0.7px solid #F4F7FF;
+    width: 88%;
+    transform: translateX(50px);
 }
 
 .pd-footer .pd-footer-lgo {}
