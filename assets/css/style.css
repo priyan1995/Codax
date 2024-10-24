@@ -3227,6 +3227,9 @@
     background-position: 26% 100%;
     background-size: 400% 219%;
     margin-top: 4rem;
+    width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pd-serv-m-c-wrp .pd-ss-1 {
@@ -3258,6 +3261,7 @@
 
 .pd-ss-sbg {
     position: absolute;
+    height: 100%;
 }
 
 .pd-ss-sbg-l {
@@ -3391,4 +3395,9 @@
 .pd-ss-sbg-c-11 p,
 .pd-ss-sbg-c-12 p{
     max-width: 165px;
+}
+
+.pd-overf-x{
+    overflow-x: auto;
+    padding-bottom: 2rem;
 }
