@@ -3290,7 +3290,7 @@
     max-width: 120px;
     padding-right: 10px;
     text-align: left;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 .ppds-c div {
@@ -3308,59 +3308,59 @@
 
 
 
-.pd-ss-sbg-c-1{
+.pd-ss-sbg-c-1 {
     left: 11.5%;
     top: 10%;
 }
 
 
-.pd-ss-sbg-c-2{
+.pd-ss-sbg-c-2 {
     left: 8%;
     top: 37%;
 }
 
-.pd-ss-sbg-c-3{
+.pd-ss-sbg-c-3 {
     left: 8.5%;
     top: 61%;
 }
 
-.pd-ss-sbg-c-4{
+.pd-ss-sbg-c-4 {
     left: 10%;
     top: 82%;
 }
 
-.pd-ss-sbg-c-5{
+.pd-ss-sbg-c-5 {
     left: 34%;
     top: 27%;
     flex-direction: row-reverse;
 }
 
-.pd-ss-sbg-c-6{
+.pd-ss-sbg-c-6 {
     left: 34%;
     top: 66%;
-     flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
-.pd-ss-sbg-c-7{
+.pd-ss-sbg-c-7 {
     left: 55.7%;
     top: 27%;
 }
 
-.pd-ss-sbg-c-8{
+.pd-ss-sbg-c-8 {
     left: 53.5%;
     top: 66%;
 }
 
 
 
-.pd-ss-sbg-c-9{
+.pd-ss-sbg-c-9 {
     left: auto;
     right: 9%;
     top: 7%;
-     flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
-.pd-ss-sbg-c-10{
+.pd-ss-sbg-c-10 {
     left: auto;
     top: 37%;
     flex-direction: row-reverse;
@@ -3368,7 +3368,7 @@
 }
 
 
-.pd-ss-sbg-c-11{
+.pd-ss-sbg-c-11 {
     left: auto;
     top: 61%;
     flex-direction: row-reverse;
@@ -3376,7 +3376,7 @@
 }
 
 
-.pd-ss-sbg-c-12{
+.pd-ss-sbg-c-12 {
     left: auto;
     top: 82%;
     flex-direction: row-reverse;
@@ -3386,18 +3386,76 @@
 
 .pd-ss-sbg-c-4 p,
 .pd-ss-sbg-c-5 p,
-.pd-ss-sbg-c-8 p{
+.pd-ss-sbg-c-8 p {
     max-width: 150px;
 }
 
 .pd-ss-sbg-c-9 p,
 .pd-ss-sbg-c-10 p,
 .pd-ss-sbg-c-11 p,
-.pd-ss-sbg-c-12 p{
+.pd-ss-sbg-c-12 p {
     max-width: 165px;
 }
 
-.pd-overf-x{
+.pd-overf-x {
     overflow-x: auto;
     padding-bottom: 2rem;
+}
+
+.pd-em-serv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pd-em-serv .pdes-btn-wrapper {
+    padding: 4px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #007DFC, rgb(76 42 140), rgba(105, 34, 243, 0));
+    animation: animateBg 30s linear infinite;
+    background-position: 26% 100%;
+    background-size: 400% 219%;
+    margin-right: 2rem;
+}
+
+.pd-em-serv a {
+    color: #0080FF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    background: white;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 75px;
+
+}
+
+
+
+.pd-em-serv h4 {
+    font-family: var(--fnt-rubik);
+    font-size: 27px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #44444C;
+    text-align: left;
+    margin-top: 0;
+}
+
+.pd-em-serv p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #44444C;
+    text-align: left;
+    margin-bottom: 0;
+    max-width: 74%;
+    margin-top: 5px;
 }
