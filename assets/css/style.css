@@ -3255,3 +3255,17 @@
     transform: translateX(-50%);
     position: absolute;
 }
+
+.pd-ss-sbg{
+    position: absolute;
+}
+
+.pd-ss-sbg-l{
+    position: absolute;
+    left: 0;
+}
+
+.pd-ss-sbg-r{
+    position: absolute;
+    right: 0;
+}
