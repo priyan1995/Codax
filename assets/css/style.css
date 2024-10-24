@@ -3211,7 +3211,7 @@
     background: #F3F9FF;
     box-sizing: border-box;
     /* borderGrad */
-    min-height: 600px;
+    min-height: 650px;
     position: relative;
     text-align: center;
     display: flex;
@@ -3283,9 +3283,10 @@
     line-height: normal;
     letter-spacing: 0em;
     color: #2E2F36;
-    max-width: 130px;
+    max-width: 120px;
     padding-right: 10px;
     text-align: left;
+    margin-left:10px;
 }
 
 .ppds-c div {
@@ -3301,9 +3302,79 @@
     border-radius: 100%;
 }
 
-.ppds-c img {}
+
 
 .pd-ss-sbg-c-1{
-    left: 13%;
-    top: 13%;
+    left: 11.5%;
+    top: 10%;
+}
+
+
+.pd-ss-sbg-c-2{
+    left: 8%;
+    top: 37%;
+}
+
+.pd-ss-sbg-c-3{
+    left: 8.5%;
+    top: 61%;
+}
+
+.pd-ss-sbg-c-4{
+    left: 12%;
+    top: 82%;
+}
+
+.pd-ss-sbg-c-5{
+    left: 34%;
+    top: 27%;
+    flex-direction: row-reverse;
+}
+
+.pd-ss-sbg-c-6{
+    left: 34%;
+    top: 66%;
+     flex-direction: row-reverse;
+}
+
+.pd-ss-sbg-c-7{
+    left: 53.5%;
+    top: 27%;
+}
+
+.pd-ss-sbg-c-8{
+    left: 53.5%;
+    top: 66%;
+}
+
+
+
+.pd-ss-sbg-c-9{
+    left: auto;
+    right: 11%;
+    top: 10%;
+     flex-direction: row-reverse;
+}
+
+.pd-ss-sbg-c-10{
+    left: auto;
+    top: 37%;
+    flex-direction: row-reverse;
+    right: 8%;
+}
+
+
+.pd-ss-sbg-c-11{
+    left: auto;
+    top: 61%;
+    flex-direction: row-reverse;
+    right: 8.5%;
+}
+
+
+.pd-ss-sbg-c-12{
+    left: auto;
+    top: 82%;
+    flex-direction: row-reverse;
+    right: 12%;
 }
