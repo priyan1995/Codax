@@ -3201,7 +3201,7 @@
 
 /* services */
 
-.pd-wordwide-sec{
+.pd-wordwide-sec {
     padding-bottom: var(--pad-bot-full);
 }
 
@@ -3219,53 +3219,91 @@
     justify-content: center;
 }
 
-.pd-serv-m-c{
+.pd-serv-m-c {
     padding: 5px;
     border-radius: 47px;
-    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #007DFC,rgb(76 42 140), rgba(105, 34, 243, 0));
+    background: linear-gradient(180deg, rgba(105, 34, 243, 0), #007DFC, rgb(76 42 140), rgba(105, 34, 243, 0));
     animation: animateBg 30s linear infinite;
     background-position: 26% 100%;
     background-size: 400% 219%;
     margin-top: 4rem;
 }
 
-.pd-serv-m-c-wrp .pd-ss-1{
+.pd-serv-m-c-wrp .pd-ss-1 {
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
 }
 
-.pd-serv-m-c-wrp .pd-ss-2{
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-}
-
-
-.pd-serv-m-c-wrp .pd-ss-3{
+.pd-serv-m-c-wrp .pd-ss-2 {
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
 }
 
 
-.pd-serv-m-c-wrp .pd-ss-4{
+.pd-serv-m-c-wrp .pd-ss-3 {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+.pd-serv-m-c-wrp .pd-ss-4 {
     height: 100%;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
 }
 
-.pd-ss-sbg{
+.pd-ss-sbg {
     position: absolute;
 }
 
-.pd-ss-sbg-l{
+.pd-ss-sbg-l {
     position: absolute;
     left: 0;
 }
 
-.pd-ss-sbg-r{
+.pd-ss-sbg-r {
     position: absolute;
     right: 0;
+}
+
+.ppds-c {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.ppds-c p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #2E2F36;
+    max-width: 130px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.ppds-c div {
+    background: #F9FCFF;
+    box-sizing: border-box;
+    border: 1px solid #000670;
+    box-shadow: 0px 0px 5px 2px rgba(1, 7, 111, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.ppds-c img {}
+
+.pd-ss-sbg-c-1{
+    left: 13%;
+    top: 13%;
 }
