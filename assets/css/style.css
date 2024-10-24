@@ -3211,7 +3211,12 @@
     background: #F3F9FF;
     box-sizing: border-box;
     /* borderGrad */
-    min-height: 400px;
+    min-height: 600px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pd-serv-m-c{
@@ -3225,13 +3230,28 @@
 }
 
 .pd-serv-m-c-wrp .pd-ss-1{
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
 }
 
-.pd-serv-m-c-wrp .pd-ss-2{}
+.pd-serv-m-c-wrp .pd-ss-2{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
 
 
-.pd-serv-m-c-wrp .pd-ss-3{}
+.pd-serv-m-c-wrp .pd-ss-3{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
 
 
-.pd-serv-m-c-wrp .pd-ss-4{}
+.pd-serv-m-c-wrp .pd-ss-4{
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
