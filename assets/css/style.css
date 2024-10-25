@@ -10,8 +10,12 @@
 }
 
 .pd-center-grad {
-    position: absolute;
+    /* position: absolute;
     right: 7%;
+    width: 40%;
+    top: 5%; */
+    position: absolute;
+    right: 30%;
     width: 40%;
     top: 5%;
 }
@@ -19,7 +23,7 @@
 .pd-left-grad {
     position: absolute;
     left: 0;
-    bottom: 30rem;
+    top: 0;
 }
 
 .pd-top-grad {
@@ -56,6 +60,26 @@
     padding-top: 6rem;
     position: relative;
     padding-right: 3%;
+}
+
+.pd-banner-content h2 { 
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #17171F;
+    margin-bottom:0;
+}
+
+.pd-banner-content h2 span {
+    font-family: var(--fnt-rubik);
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-weight: 500;
+    font-size: 55px;
+    background: linear-gradient(270deg, #3198ff 0%, #00046F 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .pd-dots-1 {
@@ -228,14 +252,20 @@
 }
 
 .pd-banner-content::after {
-    content: "";
+    /* content: "";
     position: absolute;
     width: 39rem;
     height: 16rem;
     background: radial-gradient(48% 38% at 49% 50%, rgba(24, 26, 147, 0.5) 0%, rgb(24 26 147 / 0%) 100%);
     top: 0rem;
     transform: rotate(20deg);
-    left: -4rem;
+    left: -4rem; */
+}
+
+.pd-right-grad {
+    right: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 /* btn div */
