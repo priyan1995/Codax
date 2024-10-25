@@ -191,6 +191,38 @@
 }
 
 
+.pd-bcr-top-wrapper{
+    width: fit-content;
+    border-radius: 21px;
+    background: linear-gradient(292deg, #0080FF, #0900d4, rgb(76 42 140));
+    background-position: 100% 100%;
+    background-size: 122% 119%;
+    padding: 1px;
+    object-fit: cover;
+    animation: animateBg 30s linear infinite;
+    margin: auto;
+}
+
+.pd-bcr-top{}
+
+ .pd-bcr-top{
+    border-radius: 20px;
+    opacity: 1;
+    background: #F9FCFF;
+    box-sizing: border-box;
+    border: 1px solid;
+    box-shadow: 0px 1px 10px 2px rgba(0, 111, 235, 0.15);
+    padding: 13px 35px;
+}
+
+ .pd-bcr-top svg{
+    margin-right: 1rem;
+    margin-top: -2px;
+}
+
+ .pd-bcr-top span{}
+
+
 /* navbar */
 
 @media (min-width:992px) {
