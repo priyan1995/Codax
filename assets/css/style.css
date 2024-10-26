@@ -245,6 +245,8 @@
     letter-spacing: 0em;
     color: #44444C;
     font-family: var(--fnt-dmsans);
+    position: relative;
+    z-index: 9;
 }
 
 .pd-bcr-crd .pd-bcr-chrt h2 {
@@ -319,6 +321,14 @@
     color: #44444C;
     font-family: var(--fnt-dmsans);
 }
+
+/* card2 */
+.pd-bcr-crd-2 svg{
+    transform: scale(1.37) translateX(31px) translateY(-17px) !important;
+}
+
+
+
 
 /* navbar */
 
