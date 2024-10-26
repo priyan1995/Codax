@@ -336,7 +336,7 @@
 .pd-bcr-crd-2 {
     right: 0;
     margin-left: auto;
-    margin-top: -13%;
+    margin-top: -20%;
 }
 
 /* card 3 */
@@ -368,7 +368,7 @@
 
 
 .pd-bann-con-right {
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     position: relative;
 }
 
@@ -3768,12 +3768,12 @@
 }
 
 /* banner revmp */
-.pd-bcr-rnd-lst{
+.pd-bcr-rnd-lst {
     display: flex;
     align-items: center;
 }
 
-.pd-bcr-rnd-lst h4{
+.pd-bcr-rnd-lst h4 {
     font-size: 15px;
     font-weight: 500;
     line-height: normal;
@@ -3806,15 +3806,48 @@
     background: white;
 } */
 
-.pd-bcr-rnd-lst-1{
+.pd-bcr-rnd-lst-1 {
     position: absolute;
     right: 33%;
     top: 14%;
 }
 
-.pd-bcr-rnd-lst-2{
+.pd-bcr-rnd-lst-2 {
     left: 23%;
     position: absolute;
     margin-top: -8%;
     max-width: 31%;
+}
+
+.pd-bcr-txt-crd h4 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #44444C;
+    font-family: var(--fnt-dmsans);
+    margin-bottom: 5px;
+}
+
+.pd-bcr-txt-crd p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #44444C;
+    font-family: var(--fnt-dmsans);
+}
+
+.pd-bcr-txt-crd-1 {
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 26%;
+}
+
+.pd-bcr-txt-crd-2 {
+    max-width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -1%;
 }
