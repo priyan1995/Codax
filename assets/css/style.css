@@ -3241,6 +3241,7 @@
 
 .pd-ts-card .pd-ts-body {
     padding: 25px;
+    min-height: 100px;
 }
 
 .pd-ts-card .pd-ts-header .pd-ts-c-w-1 {
@@ -3251,10 +3252,10 @@
 .pd-ts-card .pd-ts-header .pd-ts-c-w-1 img {
     width: 100%;
     border-radius: 25px;
-    background: linear-gradient(292deg, #0080FF, #0900d4, rgb(76 42 140));
+    /* background: linear-gradient(292deg, #0080FF, #0900d4, rgb(76 42 140));
     background-position: 100% 100%;
     background-size: 122% 119%;
-    padding: 4px;
+    padding: 4px; */
     height: 110px;
     object-fit: cover;
 }
@@ -3861,4 +3862,18 @@
     position: absolute;
     left: 3%;
     bottom: -1%;
+}
+
+.pd-banner-star{
+    position: absolute;
+    top: 10%;
+    z-index: 9;
+    left: -2%;
+}
+
+.pd-banner-star-2{
+    position: absolute;
+    top: 19%;
+    z-index: 9;
+    right: -6%;
 }
