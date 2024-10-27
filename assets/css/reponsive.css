@@ -384,7 +384,10 @@
     .pd-join-us-sec .pd-ss-titl p, .pd-wordwide-sec .pd-ss-titl p{
         max-width: 80%;
     }
-
+    .pd-footer .pd-footer-lgo {
+        text-align: left !important;
+        margin-bottom: 2rem;
+    }
 
 
 }
@@ -540,7 +543,7 @@
     }
 
     .pd-ssg-sm-1 .pd-ssg-sm-ptn-svg {
-        width: 100%;
+        left: -0.7rem;
     }
 
     .pd-ssg-3 {
@@ -600,12 +603,10 @@
     .pd-cont-form {
         border-radius: 0;
         margin-right: 30px;
-    }
-
-    .pd-cont-form {
-        padding: 3rem;
+        padding: 2rem;
         padding-top: 3rem;
     }
+
 
     .pd-partners-slider-sec .pd-sc-title {
         max-width: 65%;
@@ -645,7 +646,7 @@
     }
 
     .pd-gs-wrapper {
-        transform: scale(0.7) translateX(-16%);
+        transform: scale(0.62) translateX(-16%);
         transform-origin: left;
     }
 
@@ -674,6 +675,10 @@
     }
     .pd-testim-slider .slick-prev{
         z-index: 9;
+    }
+
+    .pd-cont-form button{
+        width: 80%;
     }
 
 }
