@@ -194,6 +194,7 @@
     .pd-em-serv {
         display: block;
         text-align: center;
+        margin-top: 1rem;
     }
 
     .pd-em-serv .pdes-btn-wrapper {
@@ -460,10 +461,10 @@
     }
 
     .pd-sn-sec-wrpp .nav-tabs{
-        background: transparent;
         box-shadow: none;
         text-align: center;
         justify-content: center;
+        max-width: 94%;
     }
 
     .pd-sn-sec-wrpp .nav-tabs .nav-link.active{
@@ -477,6 +478,12 @@
     .pd-gs-wrapper{
         transform: scale(0.7) translateX(-16%);
         transform-origin: left;
+    }
+
+    .pd-sup-t-c .tab-pane{
+        transform: scale(0.7);
+        transform-origin: bottom left;
+        margin-top: -11rem;
     }
 
 }

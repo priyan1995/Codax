@@ -2713,8 +2713,8 @@
     opacity: 1;
     box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
     padding-top: 4rem;
-    overflow: hidden;
     background-color: #F9FCFF;
+    /* overflow-y: hidden; */
 }
 
 .pd-startup-needs-sec {
@@ -2801,8 +2801,11 @@
     background-position: center;
     background-size: auto;
     min-width: 1550px;
-    overflow-y: hidden;
-    overflow-x: auto;
+    overflow: hidden;
+}
+
+.pd-sup-t-c{
+    overflow: auto;
 }
 
 .pd-startup-needs-sec .nav-tabs .nav-item.show .nav-link, .pd-startup-needs-sec .nav-tabs .nav-link.active{
@@ -3010,6 +3013,7 @@
     padding: 12px !important;
     margin: 5px;
     text-shadow: 0px 0px 15px #F9FCFF;
+    color: white !important;
 }
 
 .pd-sn-sec-wrpp .nav-link::after {
