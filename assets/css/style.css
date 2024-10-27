@@ -2756,6 +2756,11 @@
     margin-bottom: 4rem;
 }
 
+.pd-wws-mp-sv{
+    height: auto;
+    width: 100%;
+}
+
 .st-nd-bg {
     position: absolute;
     height: 100%;
@@ -2800,7 +2805,7 @@
     background-repeat: repeat;
     background-position: center;
     background-size: auto;
-    min-width: 1550px;
+    min-width: 1500px;
     overflow: hidden;
 }
 
