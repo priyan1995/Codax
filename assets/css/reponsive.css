@@ -170,9 +170,151 @@
     }
 }
 
-@media (max-width:992px){
-    .pd-partners-slider-sec .pd-sc-title{
+@media (max-width:992px) {
+    .pd-partners-slider-sec .pd-sc-title {
         max-width: 50%;
         margin: auto;
     }
+
+    .pd-em-serv {
+        display: block;
+        text-align: center;
+    }
+
+    .pd-em-serv .pdes-btn-wrapper {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .pd-em-serv div h4,
+    .pd-em-serv div p {
+        text-align: center;
+    }
+
+    .pd-bann-con-right {
+        transform: scale(1);
+        margin-top: 4rem;
+        margin-right: auto;
+        margin-left: unset;
+    }
+
+    .pd-main-banner {
+        padding-top: 5%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .pd-bann-con-right {
+        transform: scale(0.5);
+        transform-origin: top left;
+        margin-top: 4rem;
+        margin-right: auto;
+        margin-left: unset;
+    }
+
+    .pd-main-banner {
+        padding-top: 5%;
+    }
+
+    .pd-btn-div {
+        display: block;
+    }
+
+    .pd-btn-div .pd-blue-btn {
+        display: inline-block;
+    }
+
+
+    .pd-btn-div .pd-blue-btn-outlined {
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .pd-banner-content {
+        padding-top: 2rem;
+    }
+
+    .pd-banner-content h2 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .pd-banner-content h2 span {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .pd-bcr-crd {
+        position: relative;
+        margin-left: unset;
+        transform: unset;
+        width: 100%;
+    }
+
+    .pd-bcr-crd-1,
+    .pd-bcr-crd-2{
+        overflow: hidden;
+    }
+
+    .pd-banner-star {
+        top: 6%;
+    }
+
+    .pd-bcr-crd-2 {
+        right: 0;
+        margin-left: unset;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .pd-bcr-crd-3 {
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .pd-bcr-rnd-lst-2 {
+        position: unset;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .pd-bcr-txt-crd-1 {
+        position: unset;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+
+    .pd-banner-star-2 {
+        display: none;
+    }
+
+    .pd-bcr-rnd-lst-1 {
+        position: unset;
+        margin-top: 2rem;
+    }
+
+    .pd-bann-con-right {
+        transform: unset;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .pd-bcr-top-wrapper {
+        width: 100%;
+    }
+
+    .pd-bcr-txt-crd-2 {
+        max-width: 100%;
+        position: unset;
+        margin-top: 3rem;
+    }
+
+
+
+
 }
