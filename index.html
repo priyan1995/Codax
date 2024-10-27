@@ -10316,7 +10316,30 @@
                 pauseOnHover: false,
                 draggable: false,
                 swipe: false,
-                accessibilty: false
+                accessibilty: false,
+                responsive: [
+                {
+                        breakpoint: 1250, // Adjust for tablet
+                        settings: {
+                            slidesToShow: 4, // Show 2 slides on tablet
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768, // Adjust for tablet
+                        settings: {
+                            slidesToShow: 3, // Show 2 slides on tablet
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480, // Adjust for mobile
+                        settings: {
+                            slidesToShow: 2, // Show 1 slide on mobile
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
 
             $('.pd-testim-slider').slick({
@@ -10356,7 +10379,30 @@
                 dots: false,
                 waitForAnimate: true,
                 pauseOnFocus: false,
-                pauseOnHover: false
+                pauseOnHover: false,
+                responsive: [
+                {
+                        breakpoint: 1250, // Adjust for tablet
+                        settings: {
+                            slidesToShow: 2, // Show 2 slides on tablet
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768, // Adjust for tablet
+                        settings: {
+                            slidesToShow: 1, // Show 2 slides on tablet
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480, // Adjust for mobile
+                        settings: {
+                            slidesToShow: 1, // Show 1 slide on mobile
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
 
 

@@ -370,7 +370,7 @@
 .pd-bann-con-right {
     padding-bottom: 5rem;
     position: relative;
-    max-width: 760px;
+    width: 760px;
     margin-left: auto;
 }
 
@@ -3402,6 +3402,7 @@ margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 785px;
 
 }
 

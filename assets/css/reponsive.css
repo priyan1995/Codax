@@ -42,6 +42,10 @@
         padding-right: calc(var(--bs-gutter-x)* 1) !important;
         padding-left: calc(var(--bs-gutter-x)* 1) !important;
     }
+
+    .pd-cont-sec {
+        padding-left: 3%;
+    }
 }
 
 @media (max-width: 1380px) {
@@ -66,14 +70,109 @@
     }
 }
 
-@media  (min-width:1680px) {
-    .container{
-     max-width: 1670px;
-    } 
- }
+@media (min-width:1680px) {
+    .container {
+        max-width: 1670px;
+    }
+}
 
 @media (min-height:870px) {
     .pd-main-banner {
         padding-top: 14rem;
+    }
+}
+
+
+@media (min-width:1300px) and(max-width:1420px) {
+    .pd-susgrid {
+        min-width: 1370px;
+        transform: scale(0.8);
+        transform-origin: top left;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1610px) {
+    .pd-bann-con-right {
+        transform: scale(0.8);
+        transform-origin: left top;
+    }
+
+    .pd-banner-content {
+        padding-top: 0;
+    }
+
+    .pd-main-banner .align-items-center {
+        align-items: flex-start !important;
+    }
+
+    .pd-gs-wrapper {
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+
+    .pd-susgrid {
+        min-width: 1370px;
+    }
+}
+
+
+
+@media (min-width:1024px) and (max-width:1300px) {
+    .pd-bann-con-right {
+        transform: scale(0.7);
+        transform-origin: left top;
+    }
+
+    .pd-banner-content {
+        padding-top: 0;
+    }
+
+    .pd-banner-content {
+        padding-top: 0;
+    }
+
+    .pd-main-banner .align-items-center {
+        align-items: flex-start !important;
+    }
+
+    .pd-gs-wrapper {
+        transform: scale(0.7);
+        transform-origin: top left;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .pd-bann-con-right {
+        transform: scale(0.6);
+        transform-origin: left top;
+    }
+
+    .pd-banner-content {
+        padding-top: 0;
+    }
+
+    .pd-banner-content {
+        padding-top: 0;
+    }
+
+    .pd-main-banner .align-items-center {
+        align-items: flex-start !important;
+    }
+
+    .pd-banner-content h2 {
+        font-size: 46px;
+        line-height: normal;
+    }
+
+    .pd-gs-wrapper {
+        transform: scale(0.7);
+        transform-origin: top left;
+    }
+}
+
+@media (max-width:992px){
+    .pd-partners-slider-sec .pd-sc-title{
+        max-width: 50%;
+        margin: auto;
     }
 }
