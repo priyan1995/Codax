@@ -139,6 +139,9 @@
         transform: scale(0.7);
         transform-origin: top left;
     }
+    .pd-dep-card{
+        max-width: 80%;
+    }
 }
 
 @media (min-width:992px) and (max-width:1024px) {
@@ -168,9 +171,16 @@
         transform: scale(0.7);
         transform-origin: top left;
     }
+    .pd-dep-card{
+        max-width: 100%;
+    }
 }
 
 @media (max-width:992px) {
+    .pd-dep-card{
+        max-width: 100%;
+    }
+
     .pd-partners-slider-sec .pd-sc-title {
         max-width: 50%;
         margin: auto;
@@ -184,6 +194,7 @@
     .pd-em-serv .pdes-btn-wrapper {
         width: fit-content;
         margin: auto;
+        margin-bottom: 2rem;
     }
 
     .pd-em-serv div h4,
@@ -254,7 +265,7 @@
     }
 
     .pd-bcr-crd-1,
-    .pd-bcr-crd-2{
+    .pd-bcr-crd-2 {
         overflow: hidden;
     }
 
@@ -314,71 +325,148 @@
         margin-top: 3rem;
     }
 
-    .pd-centered-b{
+    .pd-centered-b {
         padding-bottom: 22rem;
     }
 
     .pd-light-title,
-    .pd-light-blue-title{
+    .pd-light-blue-title,
+    .pd-join-us-sec .pd-ss-titl h2, .pd-wordwide-sec .pd-ss-titl h2,
+    .pd-startup-needs-sec .pd-sc-title h2,
+    .pd-cont-fm-foot h2,
+    .pd-cont-form h3 {
         font-size: 40px;
         line-height: normal;
     }
 
-    .pd-review-sec .pd-dp-title-sc p{
+    .pd-review-sec .pd-dp-title-sc p {
         max-width: 100%;
     }
 
-    .pd-subscription{
+    .pd-subscription {
         padding-top: 8rem;
     }
 
     /* subscription section */
-    .pd-row{
+    .pd-row {
         display: block;
     }
 
     .pd-col-28,
     .pd-col-16,
     .pd-col-28,
-    .pd-col-56
-    {
+    .pd-col-56 {
         max-width: unset;
     }
 
-    .pd-ssg-2{
+    .pd-ssg-2 {
         padding-bottom: 15rem;
         margin-top: 2rem;
     }
 
-    .pd-ssg-sm-1 .pd-ssg-sm-ptn-svg{
+    .pd-ssg-sm-1 .pd-ssg-sm-ptn-svg {
         width: 100%;
     }
 
-    .pd-ssg-3{
+    .pd-ssg-3 {
         min-height: 600px;
     }
 
-    .pd-ssg-3 h1{
+    .pd-ssg-3 h1 {
         bottom: -14rem;
     }
 
-    .pd-tm-it-flex{
+    .pd-tm-it-flex {
         display: block;
     }
 
     .pd-ssg-4 {
         height: fit-content;
-        padding-bottom: 2rem;
+        padding: 1.5rem;
         margin-top: 2rem;
     }
 
-    .pd-ssg-5{
+    .pd-ssg-5 {
         background-size: cover;
     }
 
-    .pd-ssg-5 div{
+    .pd-ssg-5 div {
         width: 100%;
     }
 
+    .pd-dep-card,
+    .pd-dc-btn {
+        width: 100%;
+        max-width:100%;
+    }
+
+    .pd-dc-btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .pd-dc-btn .col-2,
+    .pd-dc-btn .col-8,
+    .pd-dep-card h3,
+    .pd-dep-card p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pd-join-us-sec .pd-ss-titl p, .pd-wordwide-sec .pd-ss-titl p,
+    .pd-em-serv p{
+        max-width: 100%;
+    }
+
+    .pd-wws-mp-sv{
+        width: 100%;
+        height: auto;
+    }
+
+    .pd-cont-form{
+        border-radius: 0;
+        margin-right: 30px;
+    }
+
+    .pd-cont-form{
+        padding: 3rem;
+        padding-top: 3rem;
+    }
+
+    .pd-partners-slider-sec .pd-sc-title{
+        max-width: 65%;
+    }
+
+    .pd-rev-tab .pd-tb-cont h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .pd-rev-tab .pd-tb-cont{
+        padding: 2rem;
+    }
+
+    .pd-serv-m-c{
+        margin-top: 0;
+    }
+
+    .pd-startup-needs-sec .pd-sc-title p{
+        max-width: 85%;
+    }
+
+    .pd-sn-sec-wrpp .nav-tabs{
+        background: transparent;
+        box-shadow: none;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pd-sn-sec-wrpp .nav-tabs .nav-link.active{
+        color: white;
+    }
+
+    .pd-cont-form input, .pd-cont-form textarea{
+        width: 100%;
+    }
 
 }
