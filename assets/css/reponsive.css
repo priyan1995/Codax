@@ -314,7 +314,71 @@
         margin-top: 3rem;
     }
 
+    .pd-centered-b{
+        padding-bottom: 22rem;
+    }
 
+    .pd-light-title,
+    .pd-light-blue-title{
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .pd-review-sec .pd-dp-title-sc p{
+        max-width: 100%;
+    }
+
+    .pd-subscription{
+        padding-top: 8rem;
+    }
+
+    /* subscription section */
+    .pd-row{
+        display: block;
+    }
+
+    .pd-col-28,
+    .pd-col-16,
+    .pd-col-28,
+    .pd-col-56
+    {
+        max-width: unset;
+    }
+
+    .pd-ssg-2{
+        padding-bottom: 15rem;
+        margin-top: 2rem;
+    }
+
+    .pd-ssg-sm-1 .pd-ssg-sm-ptn-svg{
+        width: 100%;
+    }
+
+    .pd-ssg-3{
+        min-height: 600px;
+    }
+
+    .pd-ssg-3 h1{
+        bottom: -14rem;
+    }
+
+    .pd-tm-it-flex{
+        display: block;
+    }
+
+    .pd-ssg-4 {
+        height: fit-content;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .pd-ssg-5{
+        background-size: cover;
+    }
+
+    .pd-ssg-5 div{
+        width: 100%;
+    }
 
 
 }
