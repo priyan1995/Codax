@@ -15,9 +15,7 @@
 
 }
 
-@media (min-width:992px){
-
-}
+@media (min-width:992px) {}
 
 @media (min-width: 2000px) and (max-width: 2900px) {
     .pd-join-us-sec {
@@ -144,7 +142,8 @@
         transform: scale(0.7);
         transform-origin: top left;
     }
-    .pd-dep-card{
+
+    .pd-dep-card {
         max-width: 80%;
     }
 }
@@ -176,13 +175,14 @@
         transform: scale(0.7);
         transform-origin: top left;
     }
-    .pd-dep-card{
+
+    .pd-dep-card {
         max-width: 100%;
     }
 }
 
 @media (max-width:992px) {
-    .pd-dep-card{
+    .pd-dep-card {
         max-width: 100%;
     }
 
@@ -217,6 +217,33 @@
 
     .pd-main-banner {
         padding-top: 5%;
+    }
+
+    .pd-navbar-wrapper {
+        background: linear-gradient(270deg, #0080FF 0%, #00046F 100%);
+    }
+
+    .navbar-toggler {
+        filter: invert(1);
+    }
+
+    .pd-navbar-wrapper .nav-link {
+        text-align: right;
+        color: white;
+    }
+
+    .navbar-collapse {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .pd-partners-slider-sec {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
 }
@@ -288,7 +315,7 @@
     }
 
     .pd-bcr-crd-3 {
-        width: 90%;
+        width: 95%;
         margin: auto;
         margin-top: 2rem;
     }
@@ -337,7 +364,8 @@
 
     .pd-light-title,
     .pd-light-blue-title,
-    .pd-join-us-sec .pd-ss-titl h2, .pd-wordwide-sec .pd-ss-titl h2,
+    .pd-join-us-sec .pd-ss-titl h2,
+    .pd-wordwide-sec .pd-ss-titl h2,
     .pd-startup-needs-sec .pd-sc-title h2,
     .pd-cont-fm-foot h2,
     .pd-cont-form h3 {
@@ -403,7 +431,7 @@
     .pd-dep-card,
     .pd-dc-btn {
         width: 100%;
-        max-width:100%;
+        max-width: 100%;
     }
 
     .pd-dc-btn {
@@ -420,70 +448,94 @@
         text-align: center;
     }
 
-    .pd-join-us-sec .pd-ss-titl p, .pd-wordwide-sec .pd-ss-titl p,
-    .pd-em-serv p{
+    .pd-join-us-sec .pd-ss-titl p,
+    .pd-wordwide-sec .pd-ss-titl p,
+    .pd-em-serv p {
         max-width: 100%;
     }
 
-    .pd-wws-mp-sv{
+    .pd-wws-mp-sv {
         width: 100%;
         height: auto;
     }
 
-    .pd-cont-form{
+    .pd-cont-form {
         border-radius: 0;
         margin-right: 30px;
     }
 
-    .pd-cont-form{
+    .pd-cont-form {
         padding: 3rem;
         padding-top: 3rem;
     }
 
-    .pd-partners-slider-sec .pd-sc-title{
+    .pd-partners-slider-sec .pd-sc-title {
         max-width: 65%;
     }
 
-    .pd-rev-tab .pd-tb-cont h2{
+    .pd-rev-tab .pd-tb-cont h2 {
         font-size: 18px;
         line-height: 25px;
     }
-    .pd-rev-tab .pd-tb-cont{
+
+    .pd-rev-tab .pd-tb-cont {
         padding: 2rem;
     }
 
-    .pd-serv-m-c{
+    .pd-serv-m-c {
         margin-top: 0;
     }
 
-    .pd-startup-needs-sec .pd-sc-title p{
+    .pd-startup-needs-sec .pd-sc-title p {
         max-width: 85%;
     }
 
-    .pd-sn-sec-wrpp .nav-tabs{
+    .pd-sn-sec-wrpp .nav-tabs {
         box-shadow: none;
         text-align: center;
         justify-content: center;
         max-width: 94%;
     }
 
-    .pd-sn-sec-wrpp .nav-tabs .nav-link.active{
+    .pd-sn-sec-wrpp .nav-tabs .nav-link.active {
         color: white;
     }
 
-    .pd-cont-form input, .pd-cont-form textarea{
+    .pd-cont-form input,
+    .pd-cont-form textarea {
         width: 100%;
     }
 
-    .pd-gs-wrapper{
+    .pd-gs-wrapper {
         transform: scale(0.7) translateX(-16%);
         transform-origin: left;
     }
 
-    .pd-sup-t-c .tab-pane{
+    .pd-sup-t-c .tab-pane {
         transform: scale(0.7);
         transform-origin: bottom left;
         margin-top: -11rem;
+    }
+
+    .pd-ts-card .pd-ts-header .pd-ts-c-w-2{
+        padding-top: 0;
+    }
+    .pd-ts-card .pd-ts-header .pd-ts-c-w-1 img{
+        height: 75px;
+    }
+
+    .pd-ts-card .pd-ts-footer img{
+        width: 100%;
+    }
+
+    .pd-dc-btn{
+        border-radius: 40px;
+    }
+    .pd-rev-tab{
+        margin-top: 2rem;
+    }
+    .pd-testim-slider .slick-prev{
+        z-index: 9;
     }
 
 }
