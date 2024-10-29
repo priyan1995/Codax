@@ -1496,6 +1496,17 @@
                         <!-- <img src="assets//img/pd-gr-arr-line.png" /> -->
                         <h2>30+</h2>
                         <h6>talents in a department</h6>
+
+                        <div class="pd-dp-hover-box">
+                            <p>Codax’s team is fueled by over two decades of leadership in global marketing, combining
+                                insights from some of the world’s top brands. Our core directors bring an unmatched
+                                depth of
+                                expertise, guiding innovative strategies that have propelled companies to the forefront
+                                of their
+                                industries. With this wealth of experience, Codax doesn’t just follow trends—we set
+                                them.</p>
+                        </div>
+
                     </div>
                 </div>
                 <!-- ==== column ==== -->
@@ -10794,6 +10805,21 @@
 
         $(sliderBtn).click(function () {
             $('.pd-services-slider').slick('slickNext');
+        });
+
+
+        // ========================
+        const hoverpurpleBox = document.querySelector('.pd-purple-gb');
+        const previousBox = document.querySelector('.pd-pink-gb');
+
+        hoverpurpleBox.addEventListener('mouseover', () => {
+            previousBox.style.height = '100px'; 
+            previousBox.style.padding = '0px 32px 0px 60px'; 
+        });
+
+        hoverpurpleBox.addEventListener('mouseout', () => {
+            previousBox.style.height = '400px';
+            previousBox.style.padding = '205px 32px 40px 60px'; 
         });
 
     </script>

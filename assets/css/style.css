@@ -3930,18 +3930,26 @@
     right: -6%;
 }
 
-.pd-dp-hover-box p{
+.pd-dp-hover-box p,
+.pd-purple-gb p{
     max-width: 80%;
 }
 
-.pd-pink-gb{
+.pd-pink-gb,
+.pd-purple-gb{
     height: 400px;
+    transition: all 0.5s;
 }
 
 .pd-dp-hover-box{
     transition: all 0.5s;
 }
 
-.pd-pink-gb:hover {
+.pd-pink-gb:hover,
+.pd-purple-gb:hover {
     height: 700px;
+}
+
+.pd-pink-gb:hover + .pd-purple-gb{
+    height: 100px;
 }
