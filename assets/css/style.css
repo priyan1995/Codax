@@ -3930,6 +3930,7 @@
     right: -6%;
 }
 
+/* ===================== */
 .pd-dp-hover-box p,
 .pd-purple-gb p{
     max-width: 80%;
@@ -3939,6 +3940,7 @@
 .pd-purple-gb{
     height: 400px;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .pd-dp-hover-box{
@@ -3947,9 +3949,6 @@
 
 .pd-pink-gb:hover,
 .pd-purple-gb:hover {
-    height: 700px;
+    height: 700px !important;
 }
 
-.pd-pink-gb:hover + .pd-purple-gb{
-    height: 100px;
-}

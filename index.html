@@ -1441,7 +1441,7 @@
                 <!-- ==== column ==== -->
                 <div class="col-lg-4">
                     <!-- card  1 -->
-                    <div class="pd-dip-grad-box pd-pink-gb">
+                    <div class="pd-dip-grad-box pd-pink-gb pd-pink-gb-1">
                         <div class="pd-gb-lw">
                             <svg class="pd-gb-l" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="1.5"
@@ -1474,7 +1474,7 @@
                         </div>
                     </div>
                     <!-- card 2 -->
-                    <div class="pd-dip-grad-box pd-purple-gb">
+                    <div class="pd-dip-grad-box pd-purple-gb pd-purple-gb-1">
                         <div class="pd-gb-lw">
                             <svg class="pd-gb-l" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="1.5"
@@ -1545,7 +1545,7 @@
                 <!-- ==== column ==== -->
                 <div class="col-lg-4">
                     <!-- card  4 -->
-                    <div class="pd-dip-grad-box pd-purple-gb">
+                    <div class="pd-dip-grad-box pd-purple-gb pd-purple-gb-2">
                         <div class="pd-gb-lw">
                             <svg class="pd-gb-l" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="1.5"
@@ -1568,9 +1568,20 @@
                         <h3>Top</h3>
                         <h2>1%</h2>
                         <h6>CMOs for every niche</h6>
+
+                        <div class="pd-dp-hover-box">
+                            <p>Codax’s team is fueled by over two decades of leadership in global marketing, combining
+                                insights from some of the world’s top brands. Our core directors bring an unmatched
+                                depth of
+                                expertise, guiding innovative strategies that have propelled companies to the forefront
+                                of their
+                                industries. With this wealth of experience, Codax doesn’t just follow trends—we set
+                                them.</p>
+                        </div>
+
                     </div>
                     <!-- card 5 -->
-                    <div class="pd-dip-grad-box pd-pink-gb">
+                    <div class="pd-dip-grad-box pd-pink-gb pd-pink-gb-2">
                         <div class="pd-gb-lw">
                             <svg class="pd-gb-l" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1" width="1.5"
@@ -1591,6 +1602,16 @@
                         </div>
                         <h2>360<sup>&deg;</sup></h2>
                         <h6>centralized process</h6>
+
+                        <div class="pd-dp-hover-box">
+                            <p>Codax’s team is fueled by over two decades of leadership in global marketing, combining
+                                insights from some of the world’s top brands. Our core directors bring an unmatched
+                                depth of
+                                expertise, guiding innovative strategies that have propelled companies to the forefront
+                                of their
+                                industries. With this wealth of experience, Codax doesn’t just follow trends—we set
+                                them.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -10808,18 +10829,55 @@
         });
 
 
-        // ========================
-        const hoverpurpleBox = document.querySelector('.pd-purple-gb');
-        const previousBox = document.querySelector('.pd-pink-gb');
+        // ======================== pd-purple-gb-1
+        const hoverpurpleBox = document.querySelector('.pd-purple-gb-1');
+        const previousBox = document.querySelector('.pd-pink-gb-1');
 
         hoverpurpleBox.addEventListener('mouseover', () => {
-            previousBox.style.height = '100px'; 
-            previousBox.style.padding = '0px 32px 0px 60px'; 
+            previousBox.style.height = '100px';
+            previousBox.style.padding = '0px 32px 0px 60px';
         });
 
         hoverpurpleBox.addEventListener('mouseout', () => {
             previousBox.style.height = '400px';
-            previousBox.style.padding = '205px 32px 40px 60px'; 
+            previousBox.style.padding = '205px 32px 40px 60px';
+        });
+
+        // ======================== pd-pink-gb-1
+
+        previousBox.addEventListener('mouseover', () => {
+            hoverpurpleBox.style.height = '100px';
+            hoverpurpleBox.style.padding = '0px 32px 0px 60px';
+        });
+
+        previousBox.addEventListener('mouseout', () => {
+            hoverpurpleBox.style.height = '400px';
+            hoverpurpleBox.style.padding = '205px 32px 40px 60px';
+        });
+
+
+        // ======================== pd-purple-gb-2
+        const hoverpurpleBox2 = document.querySelector('.pd-purple-gb-2');
+        const previousBox2 = document.querySelector('.pd-pink-gb-2');
+
+        hoverpurpleBox2.addEventListener('mouseover', () => {
+            previousBox2.style.height = '100px';
+            previousBox2.style.padding = '0px 32px 0px 60px';
+        });
+
+        hoverpurpleBox2.addEventListener('mouseout', () => {
+            previousBox2.style.height = '400px';
+            previousBox2.style.padding = '205px 32px 40px 60px';
+        });
+
+        previousBox2.addEventListener('mouseover', () => {
+            hoverpurpleBox2.style.height = '100px';
+            hoverpurpleBox2.style.padding = '0px 32px 0px 60px';
+        });
+
+        previousBox2.addEventListener('mouseout', () => {
+            hoverpurpleBox2.style.height = '400px';
+            hoverpurpleBox2.style.padding = '205px 32px 40px 60px';
         });
 
     </script>
