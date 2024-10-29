@@ -922,6 +922,7 @@
     transform: translateY(62%);
     align-items: center;
     left: 28px;
+    transition: all 0.5s;
 }
 
 .pd-dip-grad-box .pd-r-img {
@@ -936,6 +937,7 @@
 
 .pd-dip-grad-box.pd-centered-b .pd-gb-lw {
     transform: translateY(0);
+    transition: all 0.5s;
 }
 
 .pd-overf-hidden{
@@ -3934,7 +3936,9 @@
 /* ===================== */
 .pd-dp-hover-box p,
 .pd-purple-gb p{
-    max-width: 80%;
+    max-width: 90%;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .pd-pink-gb,
@@ -3953,3 +3957,7 @@
     height: 700px !important;
 }
 
+.pd-pink-gb:hover  .pd-gb-lw,
+.pd-purple-gb:hover .pd-gb-lw{
+    transform: translateY(-2%) scaleY(0.86);
+}
