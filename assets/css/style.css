@@ -845,6 +845,7 @@
 .pd-pink-gb {
     /* background: radial-gradient(156% 81% at 49% 100%, #BD24F3 0%, #191919 100%); */
     background: radial-gradient(156% 81% at 49% 100%, #007DFC 0%, #191919 100%);
+    transition: all 0.5s;
 }
 
 .pd-purple-gb {
@@ -857,6 +858,12 @@
     /* background: radial-gradient(255% 172% at 80% 12%, #191919 0%, #8000FF 100%); */
     background: radial-gradient(409% 172% at 80% 12%, #191919 0%, #000670 100%);
 }
+
+/* .pd-pink-gb:hover {
+    height: 80%;
+} */
+
+
 
 .pd-dip-grad-box h2 {
     font-size: 128px;
@@ -903,7 +910,7 @@
     line-height: 18px;
     letter-spacing: 0em;
     color: #F9FCFF;
-    margin-top: 2rem;
+    margin-top: 3rem;
     max-width: 70%;
 }
 
@@ -931,6 +938,19 @@
     transform: translateY(0);
 }
 
+.pd-overf-hidden{
+    overflow: hidden;
+    max-height: 840px;
+}
+
+.pd-centered-b{
+    height: 840px;
+}
+
+.pd-dip-grad-box:last-child{
+    margin-bottom: 0;
+}
+
 .pd-credt {
     display: flex;
     align-items: center;
@@ -941,7 +961,7 @@
     letter-spacing: 0em;
     color: #4D4D4D;
     justify-content: flex-end;
-    margin-top: -1rem;
+    margin-top: 1rem;
 }
 
 .pd-credt img {
@@ -3908,4 +3928,20 @@
     top: 19%;
     z-index: 9;
     right: -6%;
+}
+
+.pd-dp-hover-box p{
+    max-width: 80%;
+}
+
+.pd-pink-gb{
+    height: 400px;
+}
+
+.pd-dp-hover-box{
+    transition: all 0.5s;
+}
+
+.pd-pink-gb:hover {
+    height: 700px;
 }
