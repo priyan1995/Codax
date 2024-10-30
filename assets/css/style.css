@@ -875,12 +875,14 @@
     line-height: 128px;
     margin-bottom: 0;
     position: relative;
+    transition: all 0.5;
 }
 
 .pd-dip-grad-box h2 sup {
     font-size: 80px;
     position: absolute;
     top: 7px;
+    transition: all 0.5;
 }
 
 .pd-dip-grad-box h3 {
@@ -3957,7 +3959,39 @@
     height: 700px !important;
 }
 
+.pd-pink-gb-1:hover,
+.pd-purple-gb-2:hover{
+    padding: 70px 32px 40px 60px !important;
+}
+
 .pd-pink-gb:hover  .pd-gb-lw,
 .pd-purple-gb:hover .pd-gb-lw{
     transform: translateY(-2%) scaleY(0.86);
+}
+
+.pd-pink-gb:hover .pd-dgb-expand-down,
+.pd-purple-gb:hover .pd-dgb-expand-down{
+    transform: rotate(180deg);
+}
+
+.pd-dgb-expand-down{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: auto;
+    transition: all 0.5s;
+}
+
+.pd-dp-hvr-svg{
+    opacity: 0;
+    transition: all 0.5s;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    transform: translateY(100%);
+}
+
+.pd-dip-grad-box:hover .pd-dp-hvr-svg{
+    opacity: 1;
+    transform: translateY(0%);
 }
